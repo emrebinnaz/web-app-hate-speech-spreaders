@@ -9,7 +9,7 @@ public class HateSpeechSpreadersAppApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(HateSpeechSpreadersAppApplication.class, args);
-
+		System.out.println("deneme commit");
 	}
 
 }
