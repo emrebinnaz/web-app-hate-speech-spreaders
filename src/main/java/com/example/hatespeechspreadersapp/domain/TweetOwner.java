@@ -26,10 +26,18 @@ public class TweetOwner extends AbstractDateEntity {
     @Column(name = "username", unique = true)
     private String username;
 
+    @NotBlank
+    @Column(name = "name")
+    private String name;
+
     @Enumerated(EnumType.STRING)
     @NotBlank()
     @Column(name = "type_of_spreader")
     private TypeOfSpreader typeOfSpreader;
+
+    @NotBlank()
+    @Column(name = "image_url")
+    private String imageUrl;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "tweet_id")
