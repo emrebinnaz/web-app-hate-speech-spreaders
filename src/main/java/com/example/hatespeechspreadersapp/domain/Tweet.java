@@ -12,7 +12,6 @@ import javax.validation.constraints.NotBlank;
 import java.util.Set;
 
 @Data
-@EqualsAndHashCode(of = "tweet_id")
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "tweet")
@@ -21,8 +20,8 @@ public class Tweet extends AbstractDateEntity {
 
     @Id
     @NotBlank
-    @Column(name = "tweet_id")
-    private Long tweetId;
+    @Column(name = "id")
+    private Long id;
 
     @NotBlank()
     @Column(name = "favCount")
@@ -49,10 +48,6 @@ public class Tweet extends AbstractDateEntity {
     @Column(name = "label")
     @Enumerated(EnumType.STRING)
     private Label label;
-
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "owner_id")
-    private TweetOwner ownerId;
 
     @OneToMany(mappedBy = "tweet",cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<TweetsOfHashtag> tweetsOfHashtags;

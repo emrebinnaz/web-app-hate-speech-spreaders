@@ -14,13 +14,13 @@ public class TweetsOfHashtag extends AbstractDateEntity{
     @Id
     @NotBlank()
     @ManyToOne
-    @JoinColumn(name = "tweet_id", referencedColumnName = "tweet_id")
+    @JoinColumn(name = "tweetId", referencedColumnName = "id")
     private Tweet tweet;
 
     @Id
     @NotBlank()
     @ManyToOne
-    @JoinColumn(name = "hashtag_id", referencedColumnName = "id")
+    @JoinColumn(name = "hashtagId", referencedColumnName = "id")
     private Hashtag hashtag;
 
 }

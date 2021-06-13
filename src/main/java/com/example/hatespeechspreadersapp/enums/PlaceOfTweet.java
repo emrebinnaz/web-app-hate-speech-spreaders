@@ -5,8 +5,8 @@ import lombok.Getter;
 @Getter
 public enum PlaceOfTweet {
 
-    STREAM("HATEFUL"),
-    PROFILE("NORMAL"),
+    STREAM("STREAM"),
+    PROFILE("PROFILE"),
     BOTH("BOTH");
 
     private String textForm;

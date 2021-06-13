@@ -12,7 +12,6 @@ import javax.validation.constraints.NotNull;
 import java.util.Set;
 
 @Data
-@EqualsAndHashCode(of = "id")
 @Table(name = "tweet_owner")
 @Entity
 public class TweetOwner extends AbstractDateEntity {
@@ -32,15 +31,23 @@ public class TweetOwner extends AbstractDateEntity {
 
     @Enumerated(EnumType.STRING)
     @NotBlank()
-    @Column(name = "type_of_spreader")
+    @Column(name = "typeOfSpreader")
     private TypeOfSpreader typeOfSpreader;
 
     @NotBlank()
-    @Column(name = "image_url")
+    @Column(name = "imageUrl")
     private String imageUrl;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn(name = "tweet_id")
+    @NotBlank()
+    @Column(name = "followers")
+    private int followers;
+
+    @NotBlank()
+    @Column(name = "following")
+    private int following;
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @JoinColumn(name = "owner_id")
     private Set<Tweet> tweets;
 
 }

@@ -14,6 +14,7 @@ import java.util.Set;
 public class Hashtag extends AbstractDateEntity{
 
     @Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     @NotBlank()
     @Column(name = "id")
     private Long id;
