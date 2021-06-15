@@ -1,0 +1,6 @@
+.lists{
+    display: flex;
+    flex-direction: column;
+    height: 250px; /*burası değişecek gibi*/
+    justify-content: space-between;
+}

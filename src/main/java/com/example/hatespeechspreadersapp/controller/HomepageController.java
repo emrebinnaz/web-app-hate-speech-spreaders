@@ -25,7 +25,7 @@ public class HomepageController {
     private final HashtagService hashtagService;
     private final HashtagMapper hashtagMapper;
 
-    @GetMapping("/")
+    @GetMapping("/getHomepage")
     public ResponseEntity<HomepageResponse> getHomepage() {
 
         final HomepageResponse response = new HomepageResponse();
