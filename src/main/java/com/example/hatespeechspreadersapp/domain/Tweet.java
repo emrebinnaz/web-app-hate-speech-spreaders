@@ -4,11 +4,11 @@ import com.example.hatespeechspreadersapp.enums.Label;
 import com.example.hatespeechspreadersapp.enums.PlaceOfTweet;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
+import java.time.LocalDateTime;
 import java.util.Set;
 
 @Data
@@ -23,6 +23,10 @@ public class Tweet extends AbstractDateEntity {
     @Column(name = "id")
     private Long id;
 
+    @Column(name = "createdDate")
+    @NotBlank
+    private LocalDateTime createdDate;
+
     @NotBlank()
     @Column(name = "favCount")
     private int favCount;
@@ -36,10 +40,6 @@ public class Tweet extends AbstractDateEntity {
     private String text;
 
     @NotBlank()
-    @Column(name = "preprocessedText")
-    private String preprocessedText;
-
-    @NotBlank()
     @Column(name = "placeOfTweet")
     @Enumerated(EnumType.STRING)
     private PlaceOfTweet placeOfTweet;
@@ -48,6 +48,10 @@ public class Tweet extends AbstractDateEntity {
     @Column(name = "label")
     @Enumerated(EnumType.STRING)
     private Label label;
+
+    @ManyToOne()
+    @JoinColumn(name = "owner_id")
+    private TweetOwner tweetOwner;
 
     @OneToMany(mappedBy = "tweet",cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<TweetsOfHashtag> tweetsOfHashtags;

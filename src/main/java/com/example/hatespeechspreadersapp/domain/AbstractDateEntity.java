@@ -7,7 +7,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.Column;
 import javax.persistence.EntityListeners;
 import javax.persistence.MappedSuperclass;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Data
 @MappedSuperclass
@@ -17,6 +17,6 @@ public abstract class AbstractDateEntity {
 
     @CreatedDate
     @Column(name = "fetching_time", updatable = false)
-    private LocalDateTime fetchingTime;
+    private LocalDate fetchingTime;
 
 }
