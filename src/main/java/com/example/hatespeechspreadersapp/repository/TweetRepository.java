@@ -3,6 +3,7 @@ package com.example.hatespeechspreadersapp.repository;
 import com.example.hatespeechspreadersapp.domain.Tweet;
 import com.example.hatespeechspreadersapp.domain.TweetOwner;
 import com.example.hatespeechspreadersapp.enums.PlaceOfTweet;
+import org.apache.tomcat.jni.Local;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -34,5 +35,12 @@ public interface TweetRepository extends JpaRepository<Tweet, Long> {
                                                 @Param("profile") String profile,
                                                 @Param("both") String both);
 
+
+    @Query(value = "SELECT * " +
+                    "FROM tweet " +
+                    "WHERE id IN (:idList) " +
+                    "order by created_date DESC",
+            nativeQuery = true)
+    List<Tweet> getTweetsOfHashtag(@Param("idList") List<Long> idList);
 
 }

@@ -6,14 +6,13 @@ import com.example.hatespeechspreadersapp.dto.TweetDTO;
 import com.example.hatespeechspreadersapp.dto.TweetOwnerDTO;
 import com.example.hatespeechspreadersapp.mapper.TweetMapper;
 import com.example.hatespeechspreadersapp.mapper.TweetOwnerMapper;
+import com.example.hatespeechspreadersapp.requests.GetTweetsOfOwnerRequest;
 import com.example.hatespeechspreadersapp.response.TweetOwnerResponse;
 import com.example.hatespeechspreadersapp.service.TweetOwnerService;
 import com.example.hatespeechspreadersapp.service.TweetService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,20 +27,23 @@ public class TweetOwnerController {
     private final TweetMapper tweetMapper;
 
 
-    @GetMapping("/{username}")
-    public ResponseEntity<TweetOwnerResponse> getTweetsOfOwner(@PathVariable("username") String username) {
+    @PostMapping("/{username}")
+    public ResponseEntity<TweetOwnerResponse> getTweetsOfOwner(@PathVariable("username") String username,
+                                                               @RequestBody() GetTweetsOfOwnerRequest request) {
 
         TweetOwnerResponse tweetOwnerResponse = new TweetOwnerResponse();
 
-        TweetOwner tweetOwner = tweetOwnerService.getTweetOwnerByUsername(username);
-        TweetOwnerDTO tweetOwnerDTO = tweetOwnerMapper.mapToDto(tweetOwner);
+        Long tweetOwnerId = request.getId();
 
-        List<Tweet> tweets = tweetService.getTweetsOfUser(tweetOwner);
+        List<Tweet> tweets = tweetService.getTweetsOfUser(tweetOwnerId);
         List<TweetDTO> tweetDTOList = tweetMapper.mapToDto(tweets);
 
+        TweetOwner tweetOwner = tweetOwnerService.findByUsername(username);
+        TweetOwnerDTO tweetOwnerDTO = tweetOwnerMapper.mapToDto(tweetOwner);
 
-        tweetOwnerResponse.setTweetOwnerDTO(tweetOwnerDTO);
         tweetOwnerResponse.setTweetDTOList(tweetDTOList);
+        tweetOwnerResponse.setTweetOwnerDTO(tweetOwnerDTO);
+
         tweetOwnerResponse.setMessage("Successful");
         tweetOwnerResponse.setSuccess(true);
 

@@ -8,5 +8,5 @@ public interface TweetOwnerService {
 
     List<TweetOwner> getTweetOwnerList();
 
-    TweetOwner getTweetOwnerByUsername(String username);
+    TweetOwner findByUsername(String username);
 }

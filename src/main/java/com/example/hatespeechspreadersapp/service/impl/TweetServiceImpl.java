@@ -12,9 +12,10 @@ import com.example.hatespeechspreadersapp.service.TweetService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import javax.transaction.Transactional;
 
-import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -37,17 +38,22 @@ public class TweetServiceImpl implements TweetService {
     }
 
     @Override
-    public List<Tweet> getTweetsOfUser(TweetOwner tweetOwner) {
+    @Transactional
+    public List<Tweet> getTweetsOfUser(Long tweetOwnerId) {
 
         log.info("Get tweets of user service is running");
 
         PlaceOfTweet profile = PlaceOfTweet.PROFILE;
         PlaceOfTweet both = PlaceOfTweet.BOTH;
-        List<Tweet> tweetsOfUser = tweetRepository.findByTweetOwnerAndPlaceOfTweet(tweetOwner.getId(),
+        List<Tweet> tweetsOfUser = tweetRepository.findByTweetOwnerAndPlaceOfTweet(tweetOwnerId,
                                                                                    profile.getTextForm(),
                                                                                    both.getTextForm());
 
-        setTypeOfSpreader(tweetsOfUser, tweetOwner);
+        Optional<TweetOwner> tweetOwnerOptional = tweetOwnerRepository.findById(tweetOwnerId);
+        if(tweetOwnerOptional.isPresent()){
+            TweetOwner tweetOwner = tweetOwnerOptional.get();
+            setTypeOfSpreader(tweetsOfUser, tweetOwner);
+        }
 
         return tweetsOfUser;
     }
@@ -71,7 +77,7 @@ public class TweetServiceImpl implements TweetService {
                 tweetOwner.setTypeOfSpreader(TypeOfSpreader.ALMOST_HATE);
             }
             else{
-                tweetOwner.setTypeOfSpreader(TypeOfSpreader.NORMAL);
+                tweetOwner.setTypeOfSpreader(TypeOfSpreader.HATE);
             }
         }
 

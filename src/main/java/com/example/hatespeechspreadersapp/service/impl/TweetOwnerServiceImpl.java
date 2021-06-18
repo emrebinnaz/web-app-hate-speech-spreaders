@@ -1,6 +1,7 @@
 package com.example.hatespeechspreadersapp.service.impl;
 
 import com.example.hatespeechspreadersapp.constants.Constants;
+import com.example.hatespeechspreadersapp.domain.Tweet;
 import com.example.hatespeechspreadersapp.domain.TweetOwner;
 import com.example.hatespeechspreadersapp.repository.TweetOwnerRepository;
 import com.example.hatespeechspreadersapp.service.TweetOwnerService;
@@ -32,9 +33,10 @@ public class TweetOwnerServiceImpl implements TweetOwnerService {
     }
 
     @Override
-    public TweetOwner getTweetOwnerByUsername(String username) {
+    public TweetOwner findByUsername(String username) {
 
-        log.info("Get tweet owner by username service is running");
+        log.info("Get tweet owner id by username service is running");
+
         return tweetOwnerRepository.findByUsername(username);
     }
 }

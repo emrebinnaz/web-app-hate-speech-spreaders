@@ -24,5 +24,4 @@ public interface TweetOwnerRepository extends JpaRepository<TweetOwner, Long> {
     List<Long> getTodayTweetOwnersIds(@Param("today") LocalDate today);
 
     TweetOwner findByUsername(String username);
-
 }

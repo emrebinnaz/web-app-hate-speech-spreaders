@@ -17,32 +17,31 @@ import java.util.Set;
 public class TweetOwner extends AbstractDateEntity {
 
     @Id
-    @NotBlank()
     @Column(name = "id")
     private Long id;
 
-    @NotBlank()
+    @NotNull()
     @Column(name = "username", unique = true)
     private String username;
 
-    @NotBlank
+    @NotNull
     @Column(name = "name")
     private String name;
 
     @Enumerated(EnumType.STRING)
-    @NotBlank()
+    @NotNull()
     @Column(name = "typeOfSpreader")
     private TypeOfSpreader typeOfSpreader;
 
-    @NotBlank()
+    @NotNull()
     @Column(name = "imageUrl")
     private String imageUrl;
 
-    @NotBlank()
+    @NotNull()
     @Column(name = "followers")
     private int followers;
 
-    @NotBlank()
+    @NotNull()
     @Column(name = "following")
     private int following;
 
