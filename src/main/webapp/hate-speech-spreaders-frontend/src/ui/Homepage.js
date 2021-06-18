@@ -6,18 +6,25 @@ import Lists from "./Lists";
 import HashtagList from "../hashtag/components/HashtagList";
 import MostInteractedUserList from "../tweetowner/components/MostInteractedUserList";
 import {getHomepage} from "../requests/HomepageRequests";
+
 const Homepage = () => {
 
     const [tweets, setTweets] = useState([]);
     const [hashtags, setHashtags] = useState([]);
+    const [tweetOwners, setTweetOwners] = useState([]);
 
-    useEffect(async () => {
-        const response = await getHomepage();
-        const {hashtagDTOList, tweetDTOList} = response.data;
+    useEffect(() => {
 
-        setHashtags(hashtagDTOList);
-        setTweets(tweetDTOList);
+        async function fetchData() {
+            const response = await getHomepage();
+            const {hashtagDTOList, tweetOwnerDTOList, tweetDTOList} = response.data;
 
+            setHashtags(hashtagDTOList);
+            setTweetOwners(tweetOwnerDTOList);
+            setTweets(tweetDTOList);
+        }
+
+        fetchData();
     },[])
 
     return(
@@ -25,7 +32,7 @@ const Homepage = () => {
             <TweetStream tweets = {tweets}/>
             <Lists>
                 <HashtagList hashtags = {hashtags}/>
-                <MostInteractedUserList/>
+                <MostInteractedUserList tweetOwners = {tweetOwners}/>
             </Lists>
         </main>
     );
