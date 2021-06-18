@@ -1,5 +1,6 @@
 package com.example.hatespeechspreadersapp.dto;
 
+import com.example.hatespeechspreadersapp.enums.TypeOfSpreader;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
@@ -23,5 +24,8 @@ public class TweetOwnerDTO {
 
     @JsonProperty("username")
     private String username;
+
+    @JsonProperty("typeOfSpreader")
+    private TypeOfSpreader typeOfSpreader;
 
 }
