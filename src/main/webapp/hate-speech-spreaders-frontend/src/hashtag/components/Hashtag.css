@@ -1,0 +1,21 @@
+.hashtag{
+    height: auto;
+    transition-duration: 0.5s;
+}
+.hashtag-name{
+    font-size: 0.9rem;
+}
+.location-of-hashtag-text {
+    color: gray;
+}
+
+.texts-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+}
+
+.hashtag:hover{
+    cursor:pointer;
+    background-color: #EFF1F2;
+}

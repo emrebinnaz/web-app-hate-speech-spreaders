@@ -1,0 +1,11 @@
+.card{
+    background-color: #F7F9FA;
+    height: auto;
+    width: 30rem;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card > div {
+    margin-left: 1rem;
+}

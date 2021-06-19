@@ -1,8 +1,18 @@
 import React from 'react'
 
-const Hashtag = () => {
+import './Hashtag.css'
+const Hashtag = props => {
+
+    const {id, name} = props;
+
     return(
-        <div style={{backgroundColor : 'blue',width : 'auto', height:'100px'}}>Emr asdasasddad ae</div>
+        <div className={"hashtag"}>
+            <hr style ={{borderTop: "1px solid #F7F9FA"}}/>
+            <div className={"texts-container"}>
+                <small className={"location-of-hashtag-text"}>Trending at London</small>
+                <strong className={"hashtag-name"}>{name}</strong>
+            </div>
+        </div>
     );
 }
 export default Hashtag;

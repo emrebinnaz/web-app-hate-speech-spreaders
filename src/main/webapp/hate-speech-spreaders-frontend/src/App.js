@@ -6,16 +6,19 @@ import {
     Redirect
 } from "react-router-dom";
 
-import Homepage from "./ui/Homepage";
+import Homepage from "./ui/homepage/Homepage";
+import Navigation from "./ui/navigation/Navigation";
+import {HOMEPAGE_URL} from "./constants/Urls";
 
 function App() {
   return (
       <Router>
+          <Navigation/>
           <Switch>
-              <Route path = "/" exact>
+              <Route path = {HOMEPAGE_URL} exact>
                   <Homepage/>
               </Route>
-              <Redirect to="/" />
+              <Redirect to= {HOMEPAGE_URL} />
           </Switch>
       </Router>
   );

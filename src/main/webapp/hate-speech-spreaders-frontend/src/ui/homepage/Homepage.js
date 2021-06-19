@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react'
 
 import './homepage.css';
-import TweetStream from "../tweet/components/TweetStream";
-import Lists from "./Lists";
-import HashtagList from "../hashtag/components/HashtagList";
-import MostInteractedUserList from "../tweetowner/components/MostInteractedUserList";
-import {getHomepage} from "../requests/HomepageRequests";
+import TweetStream from "../../tweet/components/TweetStream";
+import Lists from "../lists/Lists";
+import HashtagList from "../../hashtag/components/HashtagList";
+import MostInteractedUserList from "../../tweetowner/components/MostInteractedUserList";
+import {getHomepage} from "../../requests/HomepageRequests";
 
 const Homepage = () => {
 
