@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './MostInteractedUser.css'
+import Avatar from "../../ui/avatar/Avatar";
 const MostInteractedUser = props => {
 
     const {id, name, username, imageUrl} = props;
@@ -10,7 +11,8 @@ const MostInteractedUser = props => {
             <hr style={{borderTop: "1px solid #F7F9FA"}}/>
             <div className={"horizontal-container"}>
                 <div className={"image-container"}>
-                    <img src={imageUrl} className={"mostInteractedUser-imageUrl"}/>
+                    <Avatar imageUrl = {imageUrl}
+                            className = {"mostInteractedUser-imageUrl"}/>
                 </div>
                 <div className={"texts-container"}>
                     <strong className={"mostInteractedUser-name"}>{name}</strong>

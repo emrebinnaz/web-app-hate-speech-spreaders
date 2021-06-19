@@ -25,11 +25,13 @@ const Homepage = () => {
         }
 
         fetchData();
+
     },[])
 
     return(
         <main className={"homepage"}>
-            <TweetStream tweets = {tweets}/>
+            <TweetStream tweets = {tweets}
+                         streamHeaderText = "Stream"/>
             <Lists>
                 <HashtagList hashtags = {hashtags}/>
                 <MostInteractedUserList tweetOwners = {tweetOwners}/>

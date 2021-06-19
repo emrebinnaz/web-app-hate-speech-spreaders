@@ -2,6 +2,7 @@ package com.example.hatespeechspreadersapp.dto;
 
 import com.example.hatespeechspreadersapp.enums.Label;
 import com.example.hatespeechspreadersapp.enums.PlaceOfTweet;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
@@ -14,6 +15,7 @@ public class TweetDTO {
     private Long id;
 
     @JsonProperty("createdDate")
+    @JsonFormat(pattern = "dd-MM-yyyy hh:mm")
     private LocalDateTime createdDate;
 
     @JsonProperty("favCount")

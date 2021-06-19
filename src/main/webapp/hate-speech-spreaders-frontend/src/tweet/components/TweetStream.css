@@ -1,6 +1,11 @@
 .tweet-stream {
 
-    background-color : red;
+    background-color : #15202B;
     width : 60%;
-    height: 100px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.tweet-stream > * {
+    margin-left: 30px;
 }
