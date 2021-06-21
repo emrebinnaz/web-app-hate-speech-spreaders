@@ -1,11 +1,11 @@
 .tweet{
 
-    border-color: #bbb #bbb #bbb;
+    border-color: #bbb;
     border-radius: 2px;
     border-style: solid;
     border-width: 1px;
     padding: 10px;
-    transition-duration: 0.5s;;
+    transition-duration: 0.5s;
 }
 
 .tweet-avatar{
@@ -50,4 +50,7 @@
 .tweet :hover{
     background-color: #1C2732;
     transition: 0.3s;
+}
+.tweet-label {
+
 }

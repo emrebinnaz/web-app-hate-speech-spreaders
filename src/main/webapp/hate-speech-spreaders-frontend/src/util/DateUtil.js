@@ -1,10 +1,6 @@
-export const formatDate = (string) => {
+export const formatDate = (stringDate) => {
 
-    const options = {day: 'numeric', month: 'long', year: 'numeric'};
-
-    return new Date(string).toLocaleDateString([],options);
-}
-
-export const getCurrentDate = () => {
-    return new Date().toISOString().split('T')[0];
+    var split = stringDate.split(" ");
+    var newDate = new Date(split[0]);
+    return newDate.toDateString() + " " + split[1];
 }

@@ -6,12 +6,14 @@ import Lists from "../lists/Lists";
 import HashtagList from "../../hashtag/components/HashtagList";
 import MostInteractedUserList from "../../tweetowner/components/MostInteractedUserList";
 import {getHomepage} from "../../requests/HomepageRequests";
+import {getTweetsOfHashtag} from "../../requests/TweetRequests";
 
 const Homepage = () => {
 
     const [tweets, setTweets] = useState([]);
     const [hashtags, setHashtags] = useState([]);
     const [tweetOwners, setTweetOwners] = useState([]);
+    const [streamHeaderText, setStreamHeaderText] = useState('Stream')
 
     useEffect(() => {
 
@@ -28,12 +30,19 @@ const Homepage = () => {
 
     },[])
 
+    const onClickHashtagHandler = async (hashtagId, hashtagName) => {
+
+        const response = await getTweetsOfHashtag(hashtagId);
+        setTweets(response.data);
+        setStreamHeaderText("Tweets about " + hashtagName);
+    }
+
     return(
         <main className={"homepage"}>
             <TweetStream tweets = {tweets}
-                         streamHeaderText = "Stream"/>
+                         streamHeaderText = {streamHeaderText}/>
             <Lists>
-                <HashtagList hashtags = {hashtags}/>
+                <HashtagList hashtags = {hashtags} onClickHandler ={onClickHashtagHandler}/>
                 <MostInteractedUserList tweetOwners = {tweetOwners}/>
             </Lists>
         </main>

@@ -15,7 +15,7 @@ public class TweetDTO {
     private Long id;
 
     @JsonProperty("createdDate")
-    @JsonFormat(pattern = "dd-MM-yyyy hh:mm")
+    @JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss")
     private LocalDateTime createdDate;
 
     @JsonProperty("favCount")

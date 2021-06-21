@@ -23,7 +23,7 @@ public class TweetsOfHashtagController {
     private final TweetMapper tweetMapper;
 
 
-    @PostMapping("getTweetsOf/{hashtag}")
+    @PostMapping("/getTweetsOfHashtag")
     public ResponseEntity<List<TweetDTO>> getTweetsOfHashtag(@RequestBody GetTweetsOfHashtagRequest request) {
 
         Long hashtagId = request.getHashtagId();

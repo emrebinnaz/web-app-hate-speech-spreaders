@@ -13,6 +13,7 @@ const HashtagList = props => {
             {
                 hashtags.map((hashtag, index) => (
                     <Hashtag key = {index}
+                             handler = {props.onClickHandler}
                              id = {hashtag.id}
                              name = {hashtag.name}/>
                 ))
