@@ -9,8 +9,8 @@ import Label from "../../ui/label/Label";
 const Tweet = props => {
 
     const {tweet} = props;
-    const {id, createdDate, favCount, rtCount, text, label, tweetOwner} = tweet;
-    const{username, name, imageUrl} = tweetOwner;
+    const {createdDate, favCount, rtCount, text, label, tweetOwner} = tweet;
+    const {username, name, imageUrl} = tweetOwner;
 
     return (
         <div className={"tweet"}>

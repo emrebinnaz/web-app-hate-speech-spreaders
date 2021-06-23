@@ -26,7 +26,6 @@ public class TweetsOfHashtagServiceImpl implements TweetsOfHashtagService {
 
         log.info("Get tweets of hashtag by id service is running");
         List<Long> tweetIdListOfHashtag = tweetsOfHashtagRepository.getTweetIdListOfHashtag(hashtagId);
-        System.out.println(tweetIdListOfHashtag.size());
         return tweetRepository.getTweetsOfHashtag(tweetIdListOfHashtag);
 
     }

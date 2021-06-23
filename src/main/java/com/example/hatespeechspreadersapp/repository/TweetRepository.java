@@ -16,8 +16,7 @@ import java.util.List;
 public interface TweetRepository extends JpaRepository<Tweet, Long> {
 
 
-    @Query(
-            value = "SELECT * " +
+    @Query(value = "SELECT * " +
                     "FROM (SELECT DISTINCT ON (text) * " +
                            "FROM TWEET WHERE fetching_time = :today AND (place_of_tweet = :stream OR place_of_tweet = :both)) as UniqueTweets" +
                     " ORDER BY created_date desc", nativeQuery = true)
@@ -25,8 +24,7 @@ public interface TweetRepository extends JpaRepository<Tweet, Long> {
                                @Param("stream") String stream,
                                @Param("both") String both);
 
-    @Query(
-            value = "SELECT * " +
+    @Query(value = "SELECT * " +
                     "FROM tweet " +
                     "WHERE owner_id = :ownerId AND (place_of_tweet = :profile OR place_of_tweet = :both) " +
                     "ORDER BY created_date desc",

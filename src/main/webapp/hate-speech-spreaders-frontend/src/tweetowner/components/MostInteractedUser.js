@@ -7,7 +7,7 @@ const MostInteractedUser = props => {
     const {id, name, username, imageUrl} = props;
 
     return (
-        <div className={"mostInteractedUser"}>
+        <div className={"mostInteractedUser"} onClick={(e) => props.handler(id, username)}>
             <hr style={{borderTop: "1px solid #F7F9FA"}}/>
             <div className={"horizontal-container"}>
                 <div className={"image-container"}>

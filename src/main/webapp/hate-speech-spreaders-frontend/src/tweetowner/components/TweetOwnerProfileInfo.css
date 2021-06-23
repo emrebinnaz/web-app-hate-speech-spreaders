@@ -1,0 +1,55 @@
+.tweetOwnerProfileInfo-card {
+
+    background-color : #15202B;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.tweetOwnerProfileInfo-imageUrl{
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.tweetOwnerProfileInfo-username,
+.tweetOwnerProfileInfo-date,
+.tweetOwnerProfileInfo-interaction-container small{
+    color: gray;
+}
+
+.tweetOwnerProfileInfo-texts-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+    color: white;
+}
+.tweetOwnerProfileInfo-texts-container > *{
+    margin-top: 3px;
+}
+
+.tweetOwnerProfileInfo-name, .tweetOwnerProfileInfo-interaction-container strong {
+    font-size: 0.9rem;
+}
+.tweetOwnerProfileInfo-interaction-container{
+    display: flex;
+
+}
+.tweetOwnerProfileInfo-interaction-container div{
+    margin-right: 5px;
+}
+.tweetOwnerProfileInfo-interaction-container small{
+    margin-left: 3px;
+}
+
+.type-of-sperader{
+
+    display: flex;
+    align-items: center; /* Center contents vertically */
+}
+
+

@@ -45,6 +45,10 @@ public class TweetOwner extends AbstractDateEntity {
     @Column(name = "following")
     private int following;
 
+    @NotNull()
+    @Column(name = "isMostInteractedUser")
+    private boolean isMostInteractedUser;
+
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "owner_id")
     private Set<Tweet> tweets;

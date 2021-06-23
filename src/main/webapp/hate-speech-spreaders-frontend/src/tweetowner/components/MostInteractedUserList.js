@@ -15,6 +15,7 @@ const MostInteractedUserList = props => {
                     <MostInteractedUser key = {index}
                              id = {tweetOwner.id}
                              name = {tweetOwner.name}
+                             handler = {props.onClickHandler}
                              username = {tweetOwner.username}
                              imageUrl = {tweetOwner.imageUrl}/>
                 ))

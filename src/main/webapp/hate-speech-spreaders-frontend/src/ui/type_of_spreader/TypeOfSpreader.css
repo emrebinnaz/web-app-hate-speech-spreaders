@@ -1,0 +1,21 @@
+.spreader {
+
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 1px 1px 2px 2px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.hate {
+    color: red;
+}
+
+.almost_hate {
+    color:yellow;
+}
+
+.normal{
+    color: green;
+}
+

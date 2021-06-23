@@ -15,6 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
@@ -27,22 +28,24 @@ public class TweetOwnerController {
     private final TweetMapper tweetMapper;
 
 
-    @PostMapping("/{username}")
-    public ResponseEntity<TweetOwnerResponse> getTweetsOfOwner(@PathVariable("username") String username,
-                                                               @RequestBody() GetTweetsOfOwnerRequest request) {
+    @PostMapping("/getTweetsOfOwner")
+    public ResponseEntity<TweetOwnerResponse> getTweetsOfOwner(@RequestBody() GetTweetsOfOwnerRequest request) {
 
         TweetOwnerResponse tweetOwnerResponse = new TweetOwnerResponse();
 
-        Long tweetOwnerId = request.getId();
-
-        List<Tweet> tweets = tweetService.getTweetsOfUser(tweetOwnerId);
+        Long ownerId = request.getId();
+        List<Tweet> tweets = tweetService.getTweetsOfUser(ownerId);
         List<TweetDTO> tweetDTOList = tweetMapper.mapToDto(tweets);
 
-        TweetOwner tweetOwner = tweetOwnerService.findByUsername(username);
-        TweetOwnerDTO tweetOwnerDTO = tweetOwnerMapper.mapToDto(tweetOwner);
+        Optional<TweetOwner> optionalTweetOwner = tweetOwnerService.findById(ownerId);
+
+        if(optionalTweetOwner.isPresent()) {
+            TweetOwnerDTO tweetOwnerDTO = tweetOwnerMapper.mapToDto(optionalTweetOwner.get());
+            tweetOwnerResponse.setTweetOwnerDTO(tweetOwnerDTO);
+        }
 
         tweetOwnerResponse.setTweetDTOList(tweetDTOList);
-        tweetOwnerResponse.setTweetOwnerDTO(tweetOwnerDTO);
+
 
         tweetOwnerResponse.setMessage("Successful");
         tweetOwnerResponse.setSuccess(true);

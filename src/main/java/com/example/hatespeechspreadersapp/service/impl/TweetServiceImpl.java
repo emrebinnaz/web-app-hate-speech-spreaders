@@ -77,7 +77,7 @@ public class TweetServiceImpl implements TweetService {
                 tweetOwner.setTypeOfSpreader(TypeOfSpreader.ALMOST_HATE);
             }
             else{
-                tweetOwner.setTypeOfSpreader(TypeOfSpreader.HATE);
+                tweetOwner.setTypeOfSpreader(TypeOfSpreader.NORMAL);
             }
         }
 

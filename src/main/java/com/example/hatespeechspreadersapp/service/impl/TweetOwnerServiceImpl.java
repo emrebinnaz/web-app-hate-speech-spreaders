@@ -1,18 +1,14 @@
 package com.example.hatespeechspreadersapp.service.impl;
 
-import com.example.hatespeechspreadersapp.constants.Constants;
-import com.example.hatespeechspreadersapp.domain.Tweet;
 import com.example.hatespeechspreadersapp.domain.TweetOwner;
 import com.example.hatespeechspreadersapp.repository.TweetOwnerRepository;
 import com.example.hatespeechspreadersapp.service.TweetOwnerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.tomcat.jni.Local;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Slf4j
@@ -26,17 +22,14 @@ public class TweetOwnerServiceImpl implements TweetOwnerService {
 
         log.info("Get tweet owner list service is running");
 
-        List<Long> todayTweetOwnersIds = tweetOwnerRepository.getTodayTweetOwnersIds(Constants.TODAY);
-
-        return tweetOwnerRepository.findAllById(todayTweetOwnersIds);
-
+        return tweetOwnerRepository.findAllByMostInteractedUser(true);
     }
 
     @Override
-    public TweetOwner findByUsername(String username) {
+    public Optional<TweetOwner> findById(Long id) {
 
-        log.info("Get tweet owner id by username service is running");
+        log.info("Get tweet owner id by id service is running");
 
-        return tweetOwnerRepository.findByUsername(username);
+        return tweetOwnerRepository.findById(id);
     }
 }

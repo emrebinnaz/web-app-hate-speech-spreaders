@@ -1,8 +1,14 @@
 .tweet-stream {
 
     background-color : #15202B;
-    width : 60%;
     height: auto;
     border-radius: 15px;
+    padding-top: 1px;
+    margin-top: 5px;
 }
 
+.texts-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+}
