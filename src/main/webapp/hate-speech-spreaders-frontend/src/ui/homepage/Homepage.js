@@ -50,7 +50,7 @@ const Homepage = () => {
         setTweets(response.data.tweetDTOList)
         setOwnerInfo(response.data.tweetOwnerDTO)
         setIsOwnerClicked(true)
-        setStreamHeaderText("Tweets about " + username);
+        setStreamHeaderText("Tweets of " + username);
     }
 
     return(
