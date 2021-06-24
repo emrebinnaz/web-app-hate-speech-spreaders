@@ -3,6 +3,7 @@ import './Navigation.css'
 import {Link, useHistory} from "react-router-dom";
 import HomepageIcon from "../homepage/HomepageIcon";
 import {HOMEPAGE_URL} from "../../constants/Urls";
+import {APP_NAME} from "../../constants/Constants";
 
 const Navigation = () =>{
 
@@ -17,7 +18,7 @@ const Navigation = () =>{
     return(
         <div className={"navigation"}>
             <Link>
-                <h2 className = "navigation-website-name">Site İsmi </h2>
+                <h2 className = "navigation-website-name">{APP_NAME}</h2>
             </Link>
             <Link onClick = {(e) => goToHomepage(e)}>
                 <HomepageIcon/>
