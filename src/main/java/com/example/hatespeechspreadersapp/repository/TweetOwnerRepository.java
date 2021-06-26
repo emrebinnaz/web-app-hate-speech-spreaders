@@ -1,5 +1,6 @@
 package com.example.hatespeechspreadersapp.repository;
 
+import com.example.hatespeechspreadersapp.domain.Tweet;
 import com.example.hatespeechspreadersapp.domain.TweetOwner;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -16,5 +17,8 @@ public interface TweetOwnerRepository extends JpaRepository<TweetOwner, Long> {
                     "FROM tweet_owner " +
                     "WHERE is_most_interacted_user = :isMostInteractedUser", nativeQuery = true)
     List<TweetOwner> findAllByMostInteractedUser(@Param("isMostInteractedUser") Boolean isMostInteractedUser);
+
+
+    TweetOwner findByUsername(String username);
 
 }

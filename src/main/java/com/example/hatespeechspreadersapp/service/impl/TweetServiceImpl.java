@@ -39,22 +39,21 @@ public class TweetServiceImpl implements TweetService {
 
     @Override
     @Transactional
-    public List<Tweet> getTweetsOfUser(Long tweetOwnerId) {
+    public List<Tweet> getTweetsOfUser(String tweetOwnerUsername) {
 
         log.info("Get tweets of user service is running");
 
+        TweetOwner tweetOwner = tweetOwnerRepository.findByUsername(tweetOwnerUsername);
         PlaceOfTweet profile = PlaceOfTweet.PROFILE;
         PlaceOfTweet both = PlaceOfTweet.BOTH;
-        List<Tweet> tweetsOfUser = tweetRepository.findByTweetOwnerAndPlaceOfTweet(tweetOwnerId,
+        List<Tweet> tweetsOfUser = tweetRepository.findByTweetOwnerAndPlaceOfTweet(tweetOwner.getId(),
                                                                                    profile.getTextForm(),
                                                                                    both.getTextForm());
 
-        Optional<TweetOwner> tweetOwnerOptional = tweetOwnerRepository.findById(tweetOwnerId);
-        if(tweetOwnerOptional.isPresent()){
-            TweetOwner tweetOwner = tweetOwnerOptional.get();
-            setTypeOfSpreader(tweetsOfUser, tweetOwner);
-        }
 
+        setTypeOfSpreader(tweetsOfUser, tweetOwner);
+        tweetOwnerRepository.save(tweetOwner);
+        
         return tweetsOfUser;
     }
 
@@ -68,12 +67,14 @@ public class TweetServiceImpl implements TweetService {
             }
         }
 
-        if((hatefulTweetCount / tweets.size()) >= Constants.LIMIT_OF_HATE_SPEECH_SPREADER){
+        double hatefulRatio = (double)  hatefulTweetCount  / tweets.size();
+
+        if(hatefulRatio >= Constants.LIMIT_OF_HATE_SPEECH_SPREADER){
 
             tweetOwner.setTypeOfSpreader(TypeOfSpreader.HATE);
         }
         else{
-            if((hatefulTweetCount / tweets.size()) >= Constants.LIMIT_OF_ALMOST_HATE_SPEECH_SPREADER){
+            if(hatefulRatio >= Constants.LIMIT_OF_ALMOST_HATE_SPEECH_SPREADER){
                 tweetOwner.setTypeOfSpreader(TypeOfSpreader.ALMOST_HATE);
             }
             else{
@@ -81,6 +82,5 @@ public class TweetServiceImpl implements TweetService {
             }
         }
 
-        tweetOwnerRepository.save(tweetOwner);
     }
 }

@@ -5,5 +5,5 @@ import lombok.Data;
 @Data
 public class GetTweetsOfOwnerRequest {
 
-    private Long id;
+    private String username;
 }

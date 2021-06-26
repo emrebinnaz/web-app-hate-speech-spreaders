@@ -8,5 +8,5 @@ public interface TweetService {
 
     List<Tweet> getTweets();
 
-    List<Tweet> getTweetsOfUser(Long tweetOwnerId);
+    List<Tweet> getTweetsOfUser(String tweetOwnerUsername);
 }

@@ -9,8 +9,13 @@ import {getHomepage} from "../../requests/HomepageRequests";
 import {getTweetsOfHashtag} from "../../requests/TweetRequests";
 import {getTweetsOfUser} from "../../requests/TweetOwnerRequests";
 import TweetOwnerProfileInfo from "../../tweetowner/components/TweetOwnerProfileInfo";
+import {scrollToTop} from "../../util/BrowserUtil";
+import ClipLoader from "react-spinners/ClipLoader";
 
 const Homepage = () => {
+
+    const [isLoading, setLoading] = useState(false);
+    let [color, setColor] = useState("#ffffff");
 
     const [tweets, setTweets] = useState([]);
     const [hashtags, setHashtags] = useState([]);
@@ -23,13 +28,14 @@ const Homepage = () => {
     const [ownerInfo, setOwnerInfo] = useState(null);
 
     useEffect(() => {
-
+        setLoading(true);
         async function fetchData() {
             const response = await getHomepage();
             const {hashtagDTOList, tweetOwnerDTOList, tweetDTOList} = response.data;
             setHashtags(hashtagDTOList);
             setTweetOwners(tweetOwnerDTOList);
             setTweets(tweetDTOList);
+            setLoading(false);
         }
 
         fetchData();
@@ -46,11 +52,14 @@ const Homepage = () => {
     }
 
     const onClickMostInteractedUserHandler = async (userId, username) => {
-        const response = await getTweetsOfUser(userId);
+        const response = await getTweetsOfUser(username);
+
         setTweets(response.data.tweetDTOList)
         setOwnerInfo(response.data.tweetOwnerDTO)
         setIsOwnerClicked(true)
         setStreamHeaderText("Tweets of " + username);
+
+        scrollToTop()
     }
 
     return(

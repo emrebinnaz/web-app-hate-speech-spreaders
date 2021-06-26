@@ -32,4 +32,12 @@ public class TweetOwnerServiceImpl implements TweetOwnerService {
 
         return tweetOwnerRepository.findById(id);
     }
+
+    @Override
+    public TweetOwner findByUsername(String username) {
+
+        log.info("Get tweet owner by username service is running");
+
+        return tweetOwnerRepository.findByUsername(username);
+    }
 }

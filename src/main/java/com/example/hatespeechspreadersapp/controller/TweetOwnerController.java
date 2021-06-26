@@ -33,16 +33,15 @@ public class TweetOwnerController {
 
         TweetOwnerResponse tweetOwnerResponse = new TweetOwnerResponse();
 
-        Long ownerId = request.getId();
-        List<Tweet> tweets = tweetService.getTweetsOfUser(ownerId);
+        String username = request.getUsername();
+
+        List<Tweet> tweets = tweetService.getTweetsOfUser(username);
         List<TweetDTO> tweetDTOList = tweetMapper.mapToDto(tweets);
 
-        Optional<TweetOwner> optionalTweetOwner = tweetOwnerService.findById(ownerId);
+        TweetOwner tweetOwner = tweetOwnerService.findByUsername(username);
 
-        if(optionalTweetOwner.isPresent()) {
-            TweetOwnerDTO tweetOwnerDTO = tweetOwnerMapper.mapToDto(optionalTweetOwner.get());
-            tweetOwnerResponse.setTweetOwnerDTO(tweetOwnerDTO);
-        }
+        TweetOwnerDTO tweetOwnerDTO = tweetOwnerMapper.mapToDto(tweetOwner);
+        tweetOwnerResponse.setTweetOwnerDTO(tweetOwnerDTO);
 
         tweetOwnerResponse.setTweetDTOList(tweetDTOList);
 

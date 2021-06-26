@@ -10,4 +10,6 @@ public interface TweetOwnerService {
     List<TweetOwner> getTweetOwnerList();
 
     Optional<TweetOwner> findById(Long id);
+
+    TweetOwner findByUsername(String username);
 }
