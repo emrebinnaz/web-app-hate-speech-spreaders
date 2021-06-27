@@ -6,12 +6,14 @@ import StreamHeader from "./StreamHeader";
 
 const TweetStream = props => {
 
-    const {tweets, streamHeaderText} = props;
+    const {tweets, streamHeaderText, isStreamTweetsShown} = props;
 
 
     return(
         <div className={"tweet-stream"}>
-            <StreamHeader headerText = {streamHeaderText}/>
+            <StreamHeader headerText = {streamHeaderText}
+                          handler = {props.onClickShowStreamTweetsHandler}
+                          isStreamTweetsShown = {isStreamTweetsShown}/>
             {
                 tweets.map((tweet, index) => (
                     <Tweet tweet = {tweet}

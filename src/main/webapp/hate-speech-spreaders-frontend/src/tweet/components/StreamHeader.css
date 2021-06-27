@@ -1,4 +1,30 @@
 .stream-header{
+
     color:white;
     margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.container-of-stream-header-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stream-header-button{
+    background: none;
+    border-radius: 10px;
+    padding: 4px;
+    border-color: #1da1f2;
+    color: #1da1f2;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 12px;
+
+}
+
+.stream-header-button:active {
+    border-style: outset;
 }
