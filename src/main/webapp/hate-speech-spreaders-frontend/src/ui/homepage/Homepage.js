@@ -92,7 +92,7 @@ const Homepage = () => {
 
     return(
         <main className={"homepage"}>
-            <div>
+            <div style = {{width: "60%"}}>
                 {isOwnerClicked ? <TweetOwnerProfileInfo ownerInfo = {ownerInfo}/> : null}
                 <TweetStream tweets = {tweets}
                              onClickShowStreamTweetsHandler = {onClickShowStreamTweetsHandler}
