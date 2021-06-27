@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 import java.util.Set;
 
@@ -36,7 +37,7 @@ public class Tweet extends AbstractDateEntity {
     private int rtCount;
 
     @NotBlank()
-    @Column(name = "text")
+    @Column(name = "text", columnDefinition = "varchar(1000)")
     private String text;
 
     @NotBlank()
