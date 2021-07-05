@@ -31,8 +31,8 @@ const Tweet = props => {
                     </div>
                 </div>
                 <div className={"interaction-container"}>
-                    <div><FavIcon/>{favCount}</div>
                     <div><RetweetIcon/>{rtCount}</div>
+                    <div><FavIcon/>{favCount}</div>
                 </div>
             </div>
         </div>

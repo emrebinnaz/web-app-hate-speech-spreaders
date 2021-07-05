@@ -1,224 +1,216 @@
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170364400275465, '2021-06-27', '2021-06-27 15:22:50.000000', 0, 'NORMAL', 'STREAM', 0, 'das my 2nd time seeing tank drop sumn wit a body shot kno that mf hurt 😂', 172179789);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170362504466433, '2021-06-27', '2021-06-27 15:22:50.000000', 0, 'NORMAL', 'STREAM', 0, '@SAYTOK3X @Porchayyy @Congo_King I don''t think Tank wants to campaign at 140 yet. 35''s has a lot of guys he could roll through. But, I think teo father is scared now! Lol', 126186918);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170357731401734, '2021-06-27', '2021-06-27 15:22:49.000000', 0, 'HATEFUL', 'STREAM', 0, 'Check out our BKJ merch! 🔥 Grab a shirt, tank top or hat on your way out! 😎 https://t.co/Fb6eDkz9sM', 2530490107);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170356682649611, '2021-06-27', '2021-06-27 15:22:48.000000', 2863, 'NORMAL', 'STREAM', 583, 'RT @MikeDonaghy7: Floyd Mayweather is telling Tank Davis that he''s down on the unofficial scorecard and he doesn''t want to hear it. Floyd is right, they had Barrios up 1 #DavisBarrios https://t.co/WMElaTfSu0', 184296719);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170349871144968, '2021-06-27', '2021-06-27 15:22:47.000000', 237, 'NORMAL', 'STREAM', 24, 'RT @manukumarjain: #Sunday well spent. 🛻
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057214072803331, '2021-07-05', '2021-07-05 14:34:09.000000', 263, 'NORMAL', 'STREAM', 142, 'RT @sportemongo: Today is the day! Happy 4th of July everyone! 🎇
 
-Sometimes all you need is a tank full of petrol and some good music. 🎶 😁 Don''t you agree?
+#4thofJuly #BBQ #Fireworks #Music #GraffitiMansion #SGO @coreysportemon @IZADI https://t.co/CgD2Rwyi6D', 111608728);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057204098846720, '2021-07-05', '2021-07-05 14:34:06.000000', 0, 'HATEFUL', 'STREAM', 0, 'Slow motion fireworks, Edmonds, Washington
+#fireworks #fourthofjuly #edmondswa #slowmotion #igers_seattle https://t.co/ZmoI16riqq', 241596594);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057192421789697, '2021-07-05', '2021-07-05 14:34:04.000000', 1, 'NORMAL', 'STREAM', 1, 'RT @DaleSRogers: Let the #Fireworks begin! Dragon fire in the sky, and a girl battling rebels while pretending to be a boy! #Dragons #Romance 
+@Solsticepublish
+ https://t.co/w494rZX89Y rt @artyny59 #novels #action #MondayMotivation', 1104758124);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057176542121984, '2021-07-05', '2021-07-05 14:34:00.000000', 0, 'NORMAL', 'STREAM', 0, 'Epic Hood #Fireworks | #Bronx, NYC | 4th of July 2021 https://t.co/HheT4rAt1G', 21219390);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057092400193545, '2021-07-05', '2021-07-05 14:33:40.000000', 22, 'NORMAL', 'STREAM', 2, 'RT @cat22777: Not even dark yet and the east side of #LasVegas is already lit up!  Good luck @LVMPD with the “you light it, we right it” campaign! #vegas #fireworks @LasVegasLocally https://t.co/x7J2cAKepF', 234801770);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057092177862660, '2021-07-05', '2021-07-05 14:33:40.000000', 408, 'NORMAL', 'STREAM', 102, 'RT @China2ASEAN: Splendid &amp;gorgeous moments lit up by #Fireworks of the #CPC centenary celebration gala. 
+#CPC100Years https://t.co/YGPIwHdHgr', 1290629249313853440);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057083617423363, '2021-07-05', '2021-07-05 14:33:38.000000', 99, 'NORMAL', 'STREAM', 136, 'RT @artyny59: Let the #Fireworks begin! Dragon fire in the sky, and a girl battling rebels while pretending to be a boy! #Dragons #Romance @Solsticepublish https://t.co/gOGnsri1vY https://t.co/TBr0DMO6kJ', 1104758124);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057039703097344, '2021-07-05', '2021-07-05 14:33:27.000000', 0, 'NORMAL', 'STREAM', 0, 'Illegal Fireworks Drone Footage - 4th of July Fireworks over Washington ... https://t.co/KNJ0Lo3yxH via @YouTube #MacysFireworks #Memes #July4 #news #MondayMotivation #monday #holiday #Facebook #BabyDoge #Trending #fireworks #BreakingNews #NigerianIdol #NigeriaNews 🇺🇸', 1214191093455052800);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057031696076807, '2021-07-05', '2021-07-05 14:33:25.000000', 0, 'NORMAL', 'STREAM', 0, 'The #fireworks wouldn’t stop. I think some people pulled an all-nighter.', 1079740202);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057028906917888, '2021-07-05', '2021-07-05 14:33:25.000000', 0, 'NORMAL', 'STREAM', 0, 'I was thinking about these words from @TheAmandaGorman on our late drive last night as we saw fireworks across the prairie sky. #bebrave #fierceandfree #fireworks #SouthDakota #FourthofJuly https://t.co/DyFqO9kw1L', 1085008066834251776);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057387213615107, '2021-07-05', '2021-07-05 14:34:50.000000', 0, 'NORMAL', 'STREAM', 0, 'Never forget the people who used the fact that some people lie about PTSD for benefits to justify their disregard for actual sufferers last night. A good friend of mine was huddled under her service dog all night.', 1408087892983836678);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057382369300483, '2021-07-05', '2021-07-05 14:34:49.000000', 105, 'HATEFUL', 'STREAM', 12, 'RT @PeterTatchell: I''ve been violently assaulted 300+ times, causing PTSD &amp; cognition &amp; eye damage. It affects my concentration, memory, balance &amp; coordination. Life''s a struggle but I carry on undeterred. I''ve still got battles to fight &amp; win. Read more in @NewStatesman https://t.co/bnRMNwXDBI', 66092176);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057377608814594, '2021-07-05', '2021-07-05 14:34:48.000000', 0, 'NORMAL', 'STREAM', 0, '@brandiasmith11 They’re triggering to ground critters, pets, those with sensory sensitivities, service related PTSD, non service related PTSD, people in recovery, people without shelter, and so many more groups of people. They’re also extremely overrated at this point.', 1015659191145517057);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057344993861634, '2021-07-05', '2021-07-05 14:34:40.000000', 5121, 'NORMAL', 'STREAM', 1185, 'RT @nellythamenace: I’m dead, the U.S really said let’s honor our soldiers that came back w PTSD by lighting explosives all night. This country sick as hell.', 1639185518);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057341319581699, '2021-07-05', '2021-07-05 14:34:39.000000', 0, 'NORMAL', 'STREAM', 0, 'Moses will definitely get ptsd when he enters into this https://t.co/iMQuOiXzhw', 1112144603153608704);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057336017944581, '2021-07-05', '2021-07-05 14:34:38.000000', 4, 'NORMAL', 'STREAM', 1, 'RT @kgun9: Purple Heart recipient who suffered PTSD finds healing in dog training business. https://t.co/VgiecuGYVN https://t.co/H13lDoBdG2', 3432119534);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057329789513733, '2021-07-05', '2021-07-05 14:34:36.000000', 25764, 'NORMAL', 'STREAM', 2853, 'RT @SarahKSilverman: I will never understand how you can learn that fireworks terrorize dogs and cause deep PTSD in our veterans and still think “nah I’m still gonna need the big big booms”', 792418513830940674);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057328480776193, '2021-07-05', '2021-07-05 14:34:36.000000', 216, 'NORMAL', 'STREAM', 147, 'RT @MairavZ: 241 children lost one or both of their parents and 5,400 children lost their homes. https://t.co/wJ6qoVMkGJ', 347717304);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057308083916805, '2021-07-05', '2021-07-05 14:34:31.000000', 8281, 'HATEFUL', 'STREAM', 1856, 'RT @sairaspooks: we have surpassed the need for fireworks. they’re a nuisance, bad for the environment, trigger veterans with ptsd and create anxiety in pets &amp; local wildlife', 1360363126722617344);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057441366253569, '2021-07-05', '2021-07-05 14:35:03.000000', 774, 'NORMAL', 'STREAM', 842, 'RT @StMSGfansworld: One should keep emotions positive. Sometimes negative feelings overpower positivity , but one can always generate positivity by participating in welfare acts, attending spiritual congregation and regular Meditation , says Saint Dr. @Gurmeetramrahim Ji Insan.
+#MondayMotivation', 2575268751);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057434248540161, '2021-07-05', '2021-07-05 14:35:01.000000', 0, 'NORMAL', 'STREAM', 0, 'We all eating #PlasticPollution bcz we are not Doing The Right way of worship
+#GodMorningMonday 
+#MondayMotivation https://t.co/H6PErcer0C https://t.co/KgWe63veKx', 1399645868089819140);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057433472598020, '2021-07-05', '2021-07-05 14:35:01.000000', 1, 'NORMAL', 'STREAM', 2, 'RT @nandraminsan93: Regular meditation enhances our inner power which keep us positive and stress free.
+@Gurmeetramrahim
+@DSSNewsUpdates
+ #MondayMotivation
+https://t.co/9CiArA81dK', 2412392480);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057431631347720, '2021-07-05', '2021-07-05 14:35:01.000000', 16, 'NORMAL', 'STREAM', 16, 'RT @PoojaKu_: #MondayMotivation
 
-#Car #Driving #FunDay #Fun
+One day Shekhtaki asked Kabir Saheb to stand in the oil bowl, then Shekhtaki used the crusher but could not harm Kabir Saheb.  This is called the glory of the Supreme God. https://t.co/B840Cfqxer', 1382041661031608321);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057430649978892, '2021-07-05', '2021-07-05 14:35:00.000000', 0, 'NORMAL', 'STREAM', 0, 'Comparison is a thief of joy. 😌🌸
+#MondayMotivation', 1384667375644155904);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057429651513350, '2021-07-05', '2021-07-05 14:35:00.000000', 4, 'HATEFUL', 'STREAM', 4, 'RT @Ramgpoal2: #GodMorningMonday
+#MondayMotivation
+#mondaythoughts 
+Kabir is supreme God. 
+For more information.. Watch sadhana TV at 7.30 Pm daily. https://t.co/7D5LJWwX8K', 1343919411829166081);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057428061876228, '2021-07-05', '2021-07-05 14:35:00.000000', 0, 'NORMAL', 'STREAM', 0, 'During the hot #summer months, a wonderful way to stay hydrated is with infused water!  Turn making infused water right #athome into a science experiment with GrowingGreat &amp; their demo from https://t.co/Mu39kBeMzP 😋 #MondayMotivation #kitchenscience #familyfun', 82438126);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057423666290695, '2021-07-05', '2021-07-05 14:34:59.000000', 0, 'NORMAL', 'STREAM', 0, '#MondayMotivation
+According to Holy Srimad Bhagvad Gita, all those who worship opposite to the injections of holy Scriptures can never attain happiness or salvation. 
+To know more pls visit Satlok Ashram YouTube Channel https://t.co/nmg67Qxews', 1029572298016280576);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057422210818052, '2021-07-05', '2021-07-05 14:34:58.000000', 554, 'NORMAL', 'STREAM', 578, 'RT @HumanityWarior7: Elevate the baseline of your Happiness with regular practice of Meditation and achieve the Sense of well-being
+#MondayMotivation 
+#mondaythoughts 
+#MondayMorning 
+#MondayVibes 
+#MondayMood https://t.co/ImKmDXNdu3', 1371289793817055235);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057421413900291, '2021-07-05', '2021-07-05 14:34:58.000000', 4, 'HATEFUL', 'STREAM', 8, 'RT @VandanaInsa15: Saint @Gurmeetramrahim ji insists that if you want to make your life successful, then continuously practice the meditation .  This increases your will power and success will kiss your footsteps.  But it is very important to work hard for this.
+#MondayMotivation https://t.co/ewmQ8wcrGp', 1159053408139206657);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057492624904200, '2021-07-05', '2021-07-05 14:35:15.000000', 16, 'NORMAL', 'STREAM', 4, 'RT @taexbabies: two pretty best friends (?) 
+#ARMYSelcaDay #ARSD 
+#ARSDSelcaDay @BTS_twt https://t.co/2kNEryo2LV', 961352429290868737);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057492553666564, '2021-07-05', '2021-07-05 14:35:15.000000', 8890, 'HATEFUL', 'STREAM', 2080, 'RT @psychobuticon: Taechwita is the brand 
 
-I ❤️ #Mi #Xiaomi https://t.co/mD9iJVkKsj', 1290193343528329218);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170324546113539, '2021-06-27', '2021-06-27 15:22:41.000000', 1395, 'NORMAL', 'STREAM', 374, 'RT @LeBrawnGainz: Floyd: Yo, on the unofficial you down!
+#정국 #ARSD #ArmySelcaDay @BTS_twt #BTS https://t.co/A4Sgf8PVTG', 1026654021174665216);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057491949572105, '2021-07-05', '2021-07-05 14:35:15.000000', 521, 'NORMAL', 'STREAM', 155, 'RT @sprksjeon: - error - 
 
-Tank: https://t.co/hsxouCKRjd', 244808273);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170322377613314, '2021-06-27', '2021-06-27 15:22:40.000000', 1395, 'NORMAL', 'STREAM', 374, 'RT @LeBrawnGainz: Floyd: Yo, on the unofficial you down!
+[ #ARSD #ARMYSelcaDay @BTS_twt ]
+-drop yours and lets hype each other https://t.co/rmw8YDRPJ4', 1336807018791804932);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057491945426945, '2021-07-05', '2021-07-05 14:35:15.000000', 13, 'NORMAL', 'STREAM', 8, 'RT @melinee_solar: • and you gonna be happy • 
+#ARSD #ARMYSelcaDay #JIMIN https://t.co/1fe5znEzCV', 1396922764859150336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057491634982916, '2021-07-05', '2021-07-05 14:35:15.000000', 31, 'NORMAL', 'STREAM', 12, 'RT @borahaez: Now playing 
+｡° ° ･｡･° ° ｡
+･｡       ⁰²:⁰⁷ ──────♡──── ⁰³:⁴⁰
+    ˚ ･｡ .       Butterfly — BTS
 
-Tank: https://t.co/hsxouCKRjd', 2996341848);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170316895588356, '2021-06-27', '2021-06-27 15:22:39.000000', 75, 'NORMAL', 'STREAM', 12, 'RT @greeknap: @KEEMSTAR nice one keem https://t.co/TMboVe9ymn', 1364519451488583681);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170306229489668, '2021-06-27', '2021-06-27 15:22:36.000000', 2, 'NORMAL', 'STREAM', 1, 'RT @squishysaihara: hope’s peak https://t.co/QZWwRa5h3b', 1364519451488583681);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170305797480448, '2021-06-27', '2021-06-27 15:22:36.000000', 0, 'NORMAL', 'STREAM', 0, '@_laylan i can’t stand people like you, fill that tank up!', 589502285);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170413008179210, '2021-06-27', '2021-06-27 15:23:02.000000', 15, 'NORMAL', 'STREAM', 2, 'RT @Rybezius: Chris Paul is treated like a child and never critizicized, Make-A-Wish
-Chris Paul parent''s want a kid, Make-A-B!+ch
-Chris Paul shooting below 30%, Make-A-Shot
-Chris Paul needs money, Make-A-Commericial
-Chris Paul has never made the finals, Make-A-Finals', 1255965632853692416);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170328018997254, '2021-06-27', '2021-06-27 15:22:41.000000', 1661, 'NORMAL', 'STREAM', 140, 'RT @UltraWeedHater: Shame on Chris Paul for showing his giant voluptuous ass on my TV. My wife is now filing for divorce because I don''t have an ass like him. https://t.co/jwXIlQ2xlF', 271079458);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170263686660100, '2021-06-27', '2021-06-27 15:22:26.000000', 343, 'NORMAL', 'STREAM', 82, 'RT @JJMaples55_MST: Yall think I''m hating on Chris Paul but just count the # of possessions the guy averaging 25 ppg doesn''t touch the ball and then yall expect him to just be in rhythm
+&gt;&gt; #ARMYSeIcaDay #ARSD &lt;&lt;
+         #BTS [@BTS_twt] https://t.co/PkEd8InQHy', 1203319950166724610);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057491622432772, '2021-07-05', '2021-07-05 14:35:15.000000', 2, 'NORMAL', 'STREAM', 1, 'RT @vante_Vu30: we love ourselves?
+#ARSDSelcaDay @BTS_twt #ARSD https://t.co/BzzdYm1xCp', 1388396957744259073);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057491425296395, '2021-07-05', '2021-07-05 14:35:15.000000', 60, 'NORMAL', 'STREAM', 39, 'RT @shxnwr: sksksksk mls scroll galeri
+#ARMYSelcaDay #ARSD @BTS_twt https://t.co/nrQbNfMRPI', 1243598894929457152);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057491177934859, '2021-07-05', '2021-07-05 14:35:15.000000', 5472, 'NORMAL', 'STREAM', 937, 'RT @k00inLUV: yalls fave blurple bffs r here
+#ARSD
+ #ARMYSelcaDay
+ @BTS_twt https://t.co/jkO9BxPPY2', 1311806155790852096);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057491039416321, '2021-07-05', '2021-07-05 14:35:15.000000', 0, 'NORMAL', 'STREAM', 0, 'my photographer btw. &lt;33 I love you so much Jinnie my love ! 💜💜
+#ARMYSeIcaDay #ARSD  @BTS_twt https://t.co/YnLfpkFevP', 1332519417834397696);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057551378829312, '2021-07-05', '2021-07-05 14:35:29.000000', 945176, 'NORMAL', 'STREAM', 399302, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 1381265585623998464);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057550858723334, '2021-07-05', '2021-07-05 14:35:29.000000', 945176, 'NORMAL', 'STREAM', 399302, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 1936441532);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057550401552384, '2021-07-05', '2021-07-05 14:35:29.000000', 945176, 'NORMAL', 'STREAM', 399302, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 3634128019);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057550321700868, '2021-07-05', '2021-07-05 14:35:29.000000', 945176, 'NORMAL', 'STREAM', 399302, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 1048822442162966528);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057550288265223, '2021-07-05', '2021-07-05 14:35:29.000000', 945176, 'NORMAL', 'STREAM', 399302, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 1411893191448666113);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057549608611841, '2021-07-05', '2021-07-05 14:35:29.000000', 886, 'NORMAL', 'STREAM', 220, 'RT @woonbeol_1204: #BTS ×  #LouisVuitton (JIN CUT) #방탄소년단 #LVMenFW21 https://t.co/J2TCa1b4rK', 4452909313);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057549596209153, '2021-07-05', '2021-07-05 14:35:29.000000', 945176, 'NORMAL', 'STREAM', 399302, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 1148597444609028096);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057549461856258, '2021-07-05', '2021-07-05 14:35:29.000000', 945176, 'NORMAL', 'STREAM', 399302, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 1354947840556945411);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057572203503618, '2021-07-05', '2021-07-05 14:35:34.000000', 1407, 'HATEFUL', 'PROFILE', 278, 'RT @BTSNewsBrasil: @bts_bighit 📰❗ É oficial!! BTS fará parte do show(desfile) da Louis Vuitton em Seoul!!
 
-But I''m Zzzzzzzzzz', 1259937466301272074);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170262294249475, '2021-06-27', '2021-06-27 15:22:26.000000', 7960, 'NORMAL', 'STREAM', 557, 'RT @jovanbuha: Deandre Ayton on Chris Paul: "He was the best thing that happened to my career."', 43722314);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170234758426630, '2021-06-27', '2021-06-27 15:22:19.000000', 4466, 'NORMAL', 'STREAM', 684, 'RT @NBA: Deandre Ayton''s huge night on both ends puts the @Suns up 3-1 in the #NBAWCF presented by AT&amp;T! They can clinch a spot in the NBA Finals with a win Monday at 9 PM ET on ESPN. #ThatsGame #NBAPlayoffs
+Data: 07/07
+Horário: 07h da manhã 🇧🇷
+Link: https://t.co/9bVWDtEgGP
 
-Devin Booker: 25 PTS
-Chris Paul: 18 PTS, 7 AST https://t.co/b9IOE4n1hy', 2902315872);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170169285414918, '2021-06-27', '2021-06-27 15:22:04.000000', 0, 'NORMAL', 'STREAM', 0, 'Suns'' Deandre Ayton: Chris Paul ''was the best thing that happened to my career'' – NBA News https://t.co/nxiCMup1be', 990982557423423488);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170157558136832, '2021-06-27', '2021-06-27 15:22:01.000000', 0, 'NORMAL', 'STREAM', 0, 'Um...Could be the clipps defense, not an off night? And squeeker wins against a team without their best player? 🙄 
-https://t.co/0s8HghATR6', 928452612025827328);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170045683519490, '2021-06-27', '2021-06-27 15:21:34.000000', 283, 'NORMAL', 'STREAM', 40, 'RT @shamusklove_: Chris Paul is 6/22 right now, If Russell Westbrook did this he would be getting endlessly slandered', 1212779052601241600);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170506541060104, '2021-06-27', '2021-06-27 15:23:24.000000', 2122, 'NORMAL', 'STREAM', 231, 'RT @matthewamiller: Congratulations to Bill Barr for having the courage to not join a legal case so bad it could have gotten him disbarred and for boldly speaking out to save the Republican Senate. Patriotism on display.', 1160266341657526272);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170505333149699, '2021-06-27', '2021-06-27 15:23:24.000000', 1109, 'NORMAL', 'STREAM', 303, 'RT @JoyceWhiteVance: 1/ How brave of Bill Barr to tell a reporter there wasn’t evidence of widespread fraud in December. This was well below the bar of what his oath of office demanded of him. Pls don’t fall for this shameless self-promotion piece. Predictable he’d try this.  https://t.co/IMySbC9clx', 2912047824);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170504490000388, '2021-06-27', '2021-06-27 15:23:24.000000', 1792, 'NORMAL', 'STREAM', 505, 'RT @brianstelter: When Bill Barr told the truth about the election results, Trump reacted exactly as people expected he would. https://t.co/4Uidan8kt9 https://t.co/nwzQE04SY8', 247404500);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170504297160710, '2021-06-27', '2021-06-27 15:23:24.000000', 242, 'NORMAL', 'STREAM', 68, 'RT @TeaPainUSA: So does his former boss. https://t.co/DEDy0M7Blp', 824430755862437890);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170501897900032, '2021-06-27', '2021-06-27 15:23:23.000000', 91, 'NORMAL', 'STREAM', 28, 'RT @realTuckFrumper: ''Barr belongs in prison'': Critics of former AG furious over new behind the scenes Trump revelations https://t.co/7g5NRR5ULj', 812108833849868288);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170501759500288, '2021-06-27', '2021-06-27 15:23:23.000000', 608, 'NORMAL', 'STREAM', 145, 'RT @sarahkendzior: "It''s more fun to crime in the background where you''re free of legal implications. Barr can now retreat into the warm arms of Opus Dei, mercenary armies, white-collar crime law firms, Kremlin dark money, and Handmaid''s Tale lifestyles." -- @gaslitnation https://t.co/4rL4exCKTl', 831981131561988096);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170501575008263, '2021-06-27', '2021-06-27 15:23:23.000000', 2122, 'NORMAL', 'STREAM', 231, 'RT @matthewamiller: Congratulations to Bill Barr for having the courage to not join a legal case so bad it could have gotten him disbarred and for boldly speaking out to save the Republican Senate. Patriotism on display.', 345069907);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170500836859904, '2021-06-27', '2021-06-27 15:23:23.000000', 2072, 'HATEFUL', 'STREAM', 612, 'RT @glennkirschner2: Evening #TeamJustice. When I saw the recent DOJ press conference, I immediately thought of an earlier DOJ press conference when Barr lied about the results of the Mueller report in an attempt to shield a criminal president. How would you caption these photos? https://t.co/ewpv8QAhe4', 1187883669349781504);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170500228583429, '2021-06-27', '2021-06-27 15:23:23.000000', 5099, 'NORMAL', 'STREAM', 1000, 'RT @mmpadellan: Good morning and Happy Sunday to everyone except people like Bill Barr, who happily went along for the ride, aided and abetted criminal trump, and now wants to rehab his image.
+@BTS_twt #BTS https://t.co/BkhA6Ge3cA', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057550854500354, '2021-07-05', '2021-07-05 14:35:29.000000', 945176, 'NORMAL', 'BOTH', 399302, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057242493505538, '2021-07-05', '2021-07-05 14:34:16.000000', 0, 'NORMAL', 'PROFILE', 0, 'bom diaa', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411920365606084609, '2021-07-05', '2021-07-05 05:30:22.000000', 18, 'NORMAL', 'PROFILE', 7, 'RT @_manuzc: eu sou bonita até vc ver o facebook da minha mãe', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411903957094502404, '2021-07-05', '2021-07-05 04:25:09.000000', 0, 'NORMAL', 'PROFILE', 0, 'sdds daquela amizade', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411903590730510337, '2021-07-05', '2021-07-05 04:23:42.000000', 18408, 'NORMAL', 'PROFILE', 6371, 'RT @vamp4ire: minha cabeça funciona assim https://t.co/sdIxZD4Osd', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411903559814242304, '2021-07-05', '2021-07-05 04:23:35.000000', 19919, 'NORMAL', 'PROFILE', 5382, 'RT @outrouxa: implicar com vc  🤝  quero te beijar', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411903420571791365, '2021-07-05', '2021-07-05 04:23:02.000000', 0, 'NORMAL', 'PROFILE', 0, '@nyjkking apaguei 😫no próximo faço um melhor', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411903041947721729, '2021-07-05', '2021-07-05 04:21:31.000000', 1, 'HATEFUL', 'PROFILE', 1, 'RT @btsradiantt: VOTE FOR BUTTER
 
-DISBAR BILL BARR.', 2381272452);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170499708637187, '2021-06-27', '2021-06-27 15:23:22.000000', 533, 'NORMAL', 'STREAM', 130, 'RT @davidfrum: @jonkarl More @jonkarl https://t.co/0dUvBJyEN2
+@BTS_twt
+ 
+#ButterOnEuro #BTSForUEFAEURO #ButterForEuro2020', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411902869515685893, '2021-07-05', '2021-07-05 04:20:50.000000', 0, 'NORMAL', 'PROFILE', 0, '@whoisalanda tô assim de saúde até medito', 1248243282129424386);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057549369643016, '2021-07-05', '2021-07-05 14:35:29.000000', 285317, 'NORMAL', 'BOTH', 130604, 'RT @LouisVuitton: High expectations. #LouisVuitton ambassadors @bts_bighit invite you to see @VirgilAbloh’s #LVMenFW21 collection from Seoul. Watch the show live at 7 pm (GMT +9) on Wednesday, July 7th on Twitter or https://t.co/2i3c2rq839 https://t.co/85K20uEd95', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057365206163456, '2021-07-05', '2021-07-05 14:34:45.000000', 0, 'NORMAL', 'PROFILE', 0, 'Yes!!!!!!!! 🤩🤩🤩🤩🤩🤩💜💜💜 #LouisVuittonxbts #bts #BTSARMY https://t.co/AUufDaOWRe', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412041877872857100, '2021-07-05', '2021-07-05 13:33:12.000000', 5584, 'NORMAL', 'PROFILE', 2095, 'RT @yoonligth: saber que ganamos votando limpiamente, en contra de +30 fandoms, actores, youtubers, etc nos spameaban nuestro tweets pero BUTTER ganó. ARMY que hot 🔥', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412041777960439808, '2021-07-05', '2021-07-05 13:32:48.000000', 769, 'NORMAL', 'PROFILE', 389, 'RT @BTSVotingBoard: The UEFA poll voting has ended, with Butter in first place! Thank you so much for voting ARMY 💜 
 
-By undertaking a bogus "investigation" for Trump, Barr 
+#BTS #ARMY #KCAMexico https://t.co/iDYl73sFNF', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412029959787499521, '2021-07-05', '2021-07-05 12:45:51.000000', 35091, 'NORMAL', 'PROFILE', 9120, 'RT @jtoni_n: Taehyung with wooga squad😭 https://t.co/RMtSaE76YF', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412020990666813442, '2021-07-05', '2021-07-05 12:10:12.000000', 730, 'NORMAL', 'PROFILE', 2504, 'RT @BTSVotingBoard: We vote for #BTS, #ARMY &amp; #Butter at the 2021 #KCAMexico
 
-"overturned long-standing policy that the Justice Department does not investigate voter fraud until after an election is certified."', 448180256);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170567140458514, '2021-06-27', '2021-06-27 15:23:38.000000', 0, 'NORMAL', 'STREAM', 0, '@SaltLifeGA @ASatMV @Dr_O_inFL @john_holiness @golfexaminer @BillCon25933243 @WomenRiseUp2022 @Xavier83717713 @kentwalker84 @WarnerSmithIII @nanamonroe999 @YKnot @MManbass @fidomusic @jpaulbillington Thank you, I followed as many as I could until I hit a limit. Promise l follow all back once my limit is increased. Thanks all! #FollowMeAndIWillFollowBack #FBR #sundayvibes', 1406629909267632129);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170556197408773, '2021-06-27', '2021-06-27 15:23:36.000000', 0, 'HATEFUL', 'STREAM', 0, 'news ---&gt;&gt;https://t.co/qfCABOXiNO
+🗳 RT + REPLY TO VOTE TOO', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412018319708856321, '2021-07-05', '2021-07-05 11:59:36.000000', 0, 'HATEFUL', 'PROFILE', 0, 'Vote for Butter!!! https://t.co/SpFT6BZNFw', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412016136200331267, '2021-07-05', '2021-07-05 11:50:55.000000', 2619, 'NORMAL', 'PROFILE', 666, 'RT @JiminGlobal: Park Jimin for Louis Vuitton.
 
-Brandon Lewis
-#AustrianGP
-#LoudOrQuietCelebsOrTVShows
-#sundayvibes
-TZUYU
-Camavinga
-Coman
-#PPRockingham
-Thundering Nights
-Santa Barbara
-Barr
-George Russell
-#sundayvibes 
-Mike Gravel
-#SundayMorning
-#SundayThoughts', 705731414);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170544512098316, '2021-06-27', '2021-06-27 15:23:33.000000', 3, 'NORMAL', 'STREAM', 1, 'RT @HussainBhangu: Homemade Pizza #sundayvibes https://t.co/yAxZvFsOhX', 722411099564457984);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170539067842562, '2021-06-27', '2021-06-27 15:23:32.000000', 0, 'NORMAL', 'STREAM', 0, 'Happy Sunday!!! Pc: Keith Selle.                 #SeductiveSunday #hooters #sundayvibes #fit #FitnessGirl #hot https://t.co/bq2cAAZsUH', 1341635402508062720);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170536815529988, '2021-06-27', '2021-06-27 15:23:31.000000', 0, 'NORMAL', 'STREAM', 0, 'What is this wrestlers name? #sundayvibes #TrumpRally #MGT https://t.co/jZv8qYDCVb', 1301862394646405122);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170530389872643, '2021-06-27', '2021-06-27 15:23:30.000000', 1, 'NORMAL', 'STREAM', 5, 'RT @pipeandmusic: #NowPlaying "First Rays Of Light" a Rock song made with an acoustic bass &amp; drums. No guitars involved. From the album Antes Del final  #bandcamp https://t.co/l2iNTKXvNi chainsaw man MAPPA #BuenDomingo #sundayvibes #SundayMorning Good Sunday #indie #SupportSmallStreamers #Support', 29796057);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170529240555523, '2021-06-27', '2021-06-27 15:23:29.000000', 14, 'HATEFUL', 'STREAM', 13, 'RT @krushnapriya93: #sundayvibes
-#SpiritualSunday
-🕥Let''s understand While practicing spiritually Satsanga, renunciation, Preeti how can increase spiritual emotions through this
+A Model ✨ https://t.co/0N3pAuZG9A', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412015994667769856, '2021-07-05', '2021-07-05 11:50:21.000000', 945850, 'NORMAL', 'PROFILE', 399588, 'RT @bts_bighit: We are excited to be part of the upcoming #LouisVuitton show in Seoul!
+💜 this tweet to set a reminder to watch on July 7th at 7pm (KST). 
+ 
+#BTS #방탄소년단 #LVMenFW21 https://t.co/mZggkzaG0o', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412015948345843712, '2021-07-05', '2021-07-05 11:50:10.000000', 3228, 'NORMAL', 'PROFILE', 1109, 'RT @PJM_data: #LouisVuitton × BTS digital screen near Bongeunsa Station, Seoul | Jimin cut
 
-🕔Do your children know the story of Vatsavitri?
+Model Park Jimin ready for his runway debut
 
-🕖It is necessary to understand the concept of Hindu Rashtra
-@KiranDuse https://t.co/aWSnjrgZ65', 3526516272);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170525914603522, '2021-06-27', '2021-06-27 15:23:29.000000', 0, 'HATEFUL', 'STREAM', 0, 'news ---&gt;&gt;https://t.co/DMYST1rzwn
+#LVMenFW21 https://t.co/1enYaIrzZv', 154256789);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057343605587968, '2021-07-05', '2021-07-05 14:34:40.000000', 25764, 'NORMAL', 'BOTH', 2853, 'RT @SarahKSilverman: I will never understand how you can learn that fireworks terrorize dogs and cause deep PTSD in our veterans and still think “nah I’m still gonna need the big big booms”', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411423670162108416, '2021-07-05', '2021-07-03 20:36:40.000000', 2, 'NORMAL', 'PROFILE', 0, '@91SCASTIEL It’s good for like 5 seasons :,) then it’s just overindulgence like I’m stuffing my face with reused plot lines and holes in characterization', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411422256794853384, '2021-07-05', '2021-07-03 20:31:03.000000', 1, 'HATEFUL', 'PROFILE', 0, '@whoiskylekenny @POTUS @KamalaHarris @SenSanders @RepJayapal @AOC Not to mention the fact that she literally ingested in it a state where weed is legal.', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411422014544527361, '2021-07-05', '2021-07-03 20:30:05.000000', 8, 'NORMAL', 'PROFILE', 1, 'RT @sheissylvia: love checking my bank account.  https://t.co/1lkQSyFVaS', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1411054008094056454, '2021-07-05', '2021-07-02 20:07:46.000000', 194402, 'HATEFUL', 'PROFILE', 39471, 'RT @Sethrogen: The notion that weed is a problematic “drug” is rooted in racism. It’s insane that Team USA would disqualify one of this country’s most talented athletes over thinking that’s rooted in hatred. It’s something they should be ashamed of. Also if weed made you fast, I’d be FloJo. https://t.co/swDLNoVcV3', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1410729162915016706, '2021-07-05', '2021-07-01 22:36:57.000000', 0, 'NORMAL', 'PROFILE', 0, 'I dig it https://t.co/vrLvtjZofX https://t.co/H6QShKc0jH', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409928323795402762, '2021-07-05', '2021-06-29 17:34:42.000000', 104689, 'NORMAL', 'PROFILE', 12241, 'RT @AlexYablon: The “Keep _______ Weird” crowd needs to learn that the way a place gets weird is by having cheap housing so people can work part time or not at all and still make rent', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409636942057115648, '2021-07-05', '2021-06-28 22:16:51.000000', 0, 'NORMAL', 'PROFILE', 0, '@sheissylvia The fact that people say white people don’t have culture when these exist', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408473617210478608, '2021-07-05', '2021-06-25 17:14:13.000000', 0, 'HATEFUL', 'PROFILE', 0, '@jarpad Bro ignore everyone in the comments being shitty about you expressing your feelings on socials. Damn near everyone does that. You’re not responsible for how others choose to react to your feelings.', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408265599978020868, '2021-07-05', '2021-06-25 03:27:38.000000', 1, 'NORMAL', 'PROFILE', 0, 'I smell an embarrassing cash grab with no integrity #Supernatural', 33292028);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412057491815292929, '2021-07-05', '2021-07-05 14:35:15.000000', 8890, 'HATEFUL', 'BOTH', 2080, 'RT @psychobuticon: Taechwita is the brand 
 
-Brandon Lewis
-#AustrianGP
-#LoudOrQuietCelebsOrTVShows
-#sundayvibes
-TZUYU
-Camavinga
-Coman
-#PPRockingham
-Thundering Nights
-Santa Barbara
-Barr
-George Russell
-#sundayvibes 
-Mike Gravel
-#SundayMorning
-#SundayThoughts', 705731414);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170522777305089, '2021-06-27', '2021-06-27 15:23:28.000000', 0, 'NORMAL', 'STREAM', 0, '#sundayvibes - Enjoy the Pocket of the High Today!!
+#정국 #ARSD #ArmySelcaDay @BTS_twt #BTS https://t.co/A4Sgf8PVTG', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412054207247486987, '2021-07-05', '2021-07-05 14:22:12.000000', 0, 'NORMAL', 'PROFILE', 0, '@indomyfess Nder kita sama, aku kira juga hari ini selasa karna biasanya arsd kan selasa😭😭', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412044602895384580, '2021-07-05', '2021-07-05 13:44:02.000000', 466, 'NORMAL', 'PROFILE', 228, 'RT @winnxtae: ♡˗ˏ✎*ೃ˚🍒:;
+↳ ❝ [i love u more than chocolate] ¡! ❞
 
-#CannaFam
+#ARSD #ARMYSelcaDay @BTS_twt https://t.co/yA98MMHjIr', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412041652600856582, '2021-07-05', '2021-07-05 13:32:19.000000', 1, 'NORMAL', 'PROFILE', 0, '@ztnnies https://t.co/8pZo48RElZ', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412041619683954689, '2021-07-05', '2021-07-05 13:32:11.000000', 104, 'NORMAL', 'PROFILE', 69, 'RT @ztnnies: ˚₊· ͟͟͞͞➳❥ you''re my 𝘀𝗲𝗿𝗲𝗻𝗱𝗶𝗽𝗶𝘁𝘆 !
 
-https://t.co/059vJ8nJyL https://t.co/qqq0r70U51', 1294786298570571777);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170505949667333, '2021-06-27', '2021-06-27 15:23:24.000000', 647, 'NORMAL', 'STREAM', 36, 'RT @HounddogZenith: Waking up with the birdies. Have a great day my friends. 💙🐾 
-#sundayvibes #dogsoftwitter https://t.co/2oaslP5JHt', 2814972830);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170629908123654, '2021-06-27', '2021-06-27 15:23:53.000000', 1426, 'NORMAL', 'STREAM', 126, 'RT @FormulaReaction: OMG THE JONAS BROTHERS ARE PERFORMING??? #StyrianGP #WTF1 https://t.co/RzY9unkyIv', 60731993);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170626938429446, '2021-06-27', '2021-06-27 15:23:53.000000', 2691, 'NORMAL', 'STREAM', 223, 'RT @MercedesAMGF1: 34 points was our maximum and we got them. 💪 Another go in just one week! 🔥 #StyrianGP https://t.co/folmsqgL46', 435116520);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170625935994880, '2021-06-27', '2021-06-27 15:23:53.000000', 2025, 'NORMAL', 'STREAM', 249, 'RT @redbullracing: Red Bull Racing x @HondaRacingF1 🏆 10 victories together, back at the place where it all began 👏 #StyrianGP 🇦🇹 #PoweredByHonda https://t.co/YsWnSaCk4l', 1373682614964416512);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170625739071491, '2021-06-27', '2021-06-27 15:23:52.000000', 1045, 'NORMAL', 'STREAM', 72, 'RT @F1: Unlucky Pierre Gasly 😫
+[ #ARMYSelcaDay #ARSD @BTS_twt ] https://t.co/uWmguMkhub', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412040359530487808, '2021-07-05', '2021-07-05 13:27:10.000000', 0, 'NORMAL', 'PROFILE', 0, '@GischaKth @BTS_twt Gumushh nyaaa😍', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412040148955459584, '2021-07-05', '2021-07-05 13:26:20.000000', 42, 'NORMAL', 'PROFILE', 26, 'RT @GischaKth: I keep falling in love with you every time💜
 
-#StyrianGP 🇦🇹 #F1 https://t.co/o6nriLw1QO', 1292827306428424194);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170623402856452, '2021-06-27', '2021-06-27 15:23:52.000000', 6386, 'NORMAL', 'STREAM', 1000, 'RT @F1: Confirmation of an emphatic win for @Max33Verstappen 
+#ARSD 
+#ARMYSelcaDay 
+@BTS_twt https://t.co/bvVfqiQEu6', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412040008245006346, '2021-07-05', '2021-07-05 13:25:47.000000', 157, 'NORMAL', 'PROFILE', 113, 'RT @kookycath: ga pinter bikin capt 
 
-#StyrianGP 🇦🇹 #F1 https://t.co/9xpbf2iDsK', 912680579166031873);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170621116817408, '2021-06-27', '2021-06-27 15:23:51.000000', 2691, 'NORMAL', 'STREAM', 223, 'RT @MercedesAMGF1: 34 points was our maximum and we got them. 💪 Another go in just one week! 🔥 #StyrianGP https://t.co/folmsqgL46', 243267536);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170619103580162, '2021-06-27', '2021-06-27 15:23:51.000000', 4881, 'NORMAL', 'STREAM', 778, 'RT @redbullracing: Burn it down, Max! 🔥 King of the Ring! 👑 #StyrianGP 🇦🇹
+#ARSD #ARMYSeIcaDay #BTS #BTSARMY @BTS_twt https://t.co/wBwCkR5YrU', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412039889932079105, '2021-07-05', '2021-07-05 13:25:18.000000', 0, 'NORMAL', 'PROFILE', 0, '@nnoellunch @BTS_twt Cantik nyaa😍', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412039687192027147, '2021-07-05', '2021-07-05 13:24:30.000000', 273, 'NORMAL', 'PROFILE', 133, 'RT @nnoellunch: ❝〔self care, we gonna be good〕❞         
 
-https://t.co/lbY4WVb9Wf', 892718934079746048);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170622651977735, '2021-06-27', '2021-06-27 15:23:52.000000', 37464, 'NORMAL', 'BOTH', 7761, 'RT @F1: MAX, MAX, MAX, SUPER MAX‼️
+Self Care - Mac Miller 
+2:47 ────o─────── -5:45
+         ⇄   ◃◃    Ⅱ    ▹▹      ↻
+                 ılı.lıllılı.ıllı
 
-Verstappen WINS at the Red Bull Ring ahead of Hamilton (P2) and Bottas (P3)
-
-#StyrianGP 🇦🇹 #F1 https://t.co/Fb5ggPTz4c', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409156472144007170, '2021-06-27', '2021-06-27 14:27:38.000000', 0, 'NORMAL', 'PROFILE', 0, 'Fácil p Max, vamos https://t.co/dwxcW0PiyH', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408265060808593410, '2021-06-27', '2021-06-25 03:25:29.000000', 2391, 'NORMAL', 'PROFILE', 453, 'RT @TheEternalTrip: 𝐿𝑒𝑠 𝑆𝑒𝑦𝑐𝘩𝑒𝑙𝑙𝑒𝑠 🌴 https://t.co/qe0SFLUiX2', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408202386754228224, '2021-06-27', '2021-06-24 23:16:26.000000', 1, 'NORMAL', 'PROFILE', 2, 'Devia ser crime estar em casa c este calor agora', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1407822220617990150, '2021-06-27', '2021-06-23 22:05:48.000000', 0, 'NORMAL', 'PROFILE', 0, 'Ahahahahahahhahahaha https://t.co/iClVBU8fQT', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1406628904413155330, '2021-06-27', '2021-06-20 15:03:59.000000', 0, 'NORMAL', 'PROFILE', 0, 'Ídolo!!! https://t.co/8Zc2jBpcGc', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1406628753405534217, '2021-06-27', '2021-06-20 15:03:23.000000', 3852, 'NORMAL', 'PROFILE', 607, 'RT @B24PT: Mad Max!
-
-Verstappen vence o #FrenchGP ao ultrapassar Hamilton na penúltima volta. https://t.co/F3oVuFOFxL', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1406621115963871235, '2021-06-27', '2021-06-20 14:33:02.000000', 497, 'NORMAL', 'PROFILE', 117, 'RT @ElevenSports_PT: QUE CORRIDA 🦁🚀 Mad Max é o vencedor do GP de França 🇫🇷 #F1ELEVEN https://t.co/zmsqbGp3Ai', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1406298706807341070, '2021-06-27', '2021-06-19 17:11:54.000000', 1, 'NORMAL', 'PROFILE', 2, 'Obrigado! A culpa não é totalmente do nelson, percebem 0 de futebol fds https://t.co/B9SAymPMku', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1406284743801544708, '2021-06-27', '2021-06-19 16:16:25.000000', 1, 'NORMAL', 'PROFILE', 0, 'Ronaldo já tá habituado a marcar nessa baliza, já é normal para ele', 2800269486);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170628100476932, '2021-06-27', '2021-06-27 15:23:53.000000', 15723, 'NORMAL', 'BOTH', 1946, 'RT @F1: Your #F1DriverOfTheDay 
-
- It''s Charles! 🙌
-
-#StyrianGP 🇦🇹 @Charles_Leclerc https://t.co/34gPK078jl', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409169850199592966, '2021-06-27', '2021-06-27 15:20:48.000000', 0, 'NORMAL', 'PROFILE', 0, '@miguelaraujo07 perdeu 8 lugares no início e depois só deu e recuperou mesmo bem, foi ultrapassagem atrás de ultrapassagem, 2 delas bué à risca, ele esteve muito bem', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409154485809823749, '2021-06-27', '2021-06-27 14:19:44.000000', 3, 'HATEFUL', 'PROFILE', 0, 'leclerc driver of the day fácil', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409152708360216578, '2021-06-27', '2021-06-27 14:12:41.000000', 1, 'NORMAL', 'PROFILE', 0, 'leclerc está-lhe a dar bué', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409136526206853122, '2021-06-27', '2021-06-27 13:08:22.000000', 0, 'NORMAL', 'PROFILE', 0, 'alguém que me diga sites para ver F1', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409097391303757826, '2021-06-27', '2021-06-27 10:32:52.000000', 2127, 'NORMAL', 'PROFILE', 333, 'RT @OFuraRedes: Dá mais vontade de aplaudir os eliminados do que os vencedores!
-
-Fantástico Áustria! https://t.co/LOHbZz2GIo', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408828669766869002, '2021-06-27', '2021-06-26 16:45:04.000000', 3, 'NORMAL', 'PROFILE', 0, 'eu sinto me mal por estar a estudar bué para o exame mas depois penso que há pessoal que vai fazer exame de matemática e sinto me melhor😌', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408761097503510534, '2021-06-27', '2021-06-26 12:16:33.000000', 0, 'NORMAL', 'PROFILE', 0, 'ando a perder bué merdas, onde é que eu ando com a cabeça? wtf🤦‍♂️🤣', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408404604728098817, '2021-06-27', '2021-06-25 12:39:59.000000', 1721, 'NORMAL', 'PROFILE', 545, 'RT @ligaptdadepre: Linda? Linda é a camisola alternativa do Porto, tu és no máximo arrumadinha https://t.co/EU4kV0w6Wv', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408347963378868224, '2021-06-27', '2021-06-25 08:54:54.000000', 0, 'NORMAL', 'PROFILE', 0, 'se comprar compro este sem pensar 2 vezes https://t.co/gOAWTfBxNe', 1000115876350316544);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170629467725826, '2021-06-27', '2021-06-27 15:23:53.000000', 8616, 'NORMAL', 'BOTH', 1194, 'RT @F1: Win #4 of the season for @Max33Verstappen 🏆🏆🏆🏆
-
-#StyrianGP 🇦🇹 #F1 https://t.co/RwXtB55a33', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170422231404549, '2021-06-27', '2021-06-27 15:23:04.000000', 37572, 'NORMAL', 'PROFILE', 7780, 'RT @F1: MAX, MAX, MAX, SUPER MAX‼️
-
-Verstappen WINS at the Red Bull Ring ahead of Hamilton (P2) and Bottas (P3)
-
-#StyrianGP 🇦🇹 #F1 https://t.co/Fb5ggPTz4c', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408983781986476037, '2021-06-27', '2021-06-27 03:01:25.000000', 23712, 'NORMAL', 'PROFILE', 2278, 'RT @F1: Sunday''s grid UPDATED*
-
-#StyrianGP 🇦🇹 *following Tsunoda''s grid penalty https://t.co/IVFkJdw7PD', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408983767277051905, '2021-06-27', '2021-06-27 03:01:22.000000', 41220, 'NORMAL', 'PROFILE', 4972, 'RT @F1: It''s back-to-back poles for @Max33Verstappen 👏
-
-#StyrianGP 🇦🇹 #F1 https://t.co/bTN93DEwSs', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408513160978501633, '2021-06-27', '2021-06-25 19:51:21.000000', 12, 'NORMAL', 'PROFILE', 20, 'RT @samenvvv: Man van Ayşe is in gevangenis. Zij is moeder en vader voor haar kind terwijl zij vecht tegen zeldzame vorm van kanker. Nu krijgt zij ook een straf en moet naar gevangenis. Zij moet behandeld worden voor ziekte! Ayşe Özdoğan mag niet worden gearresteerd
-
-AyşeÖzdoğan Tutuklanmasın https://t.co/ZBkJrGfpIn', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408512997929201669, '2021-06-27', '2021-06-25 19:50:42.000000', 6, 'NORMAL', 'PROFILE', 3, 'bu duaya amin diyorum!
-
-AyşeÖzdoğan Tutuklanmasın https://t.co/atShp0D6KF', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1408512342770528259, '2021-06-27', '2021-06-25 19:48:06.000000', 49, 'NORMAL', 'PROFILE', 69, 'RT @IFMLDresden: Ayse Özdoğan has cancer for 2 years. Last MR Enterography shows that the cancer is disseminated. She is 72 percent disabled. Her husband is also detained and she hast to take care of her son with heart disease.
-
-@RebHarms @DanielFritzEU @ZamaHRW
-AyşeÖzdoğan Tutuklanmasın https://t.co/RV2FO8a5J1', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1407790572887330831, '2021-06-27', '2021-06-23 20:00:02.000000', 276, 'NORMAL', 'PROFILE', 60, 'RT @zacbowden: Here it is. Your first look at Windows 11 in video form. New UI, animations, sounds, touch improvements, and more: https://t.co/yDcVbTxHV9', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1407790554176528388, '2021-06-27', '2021-06-23 19:59:58.000000', 1293, 'NORMAL', 'PROFILE', 206, 'RT @zacbowden: Hello, Windows 11 https://t.co/NvnRsUizgX', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1407789822782185476, '2021-06-27', '2021-06-23 19:57:03.000000', 14, 'NORMAL', 'PROFILE', 16, 'Parlementslid Ömer Faruk gergerlioğlu al 83 dagen vast in de Turkse gevangenissen! Zijn ''schuld'' is de mensenrechten verdedigen, onschuldige mensen een platform bieden en voor de democratie en rechtsstaat strijden!
-
-Gergerlioğlu 83GündürHapis https://t.co/yWNq47g8bT', 969611887);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170224537030667, '2021-06-27', '2021-06-27 15:22:17.000000', 8716, 'NORMAL', 'BOTH', 777, 'RT @statmuse: Chris Paul is one win away from his first ever Finals. https://t.co/7RbxftBKOQ', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170143914172418, '2021-06-27', '2021-06-27 15:21:58.000000', 61, 'NORMAL', 'PROFILE', 6, 'RT @kawhinordestino: Números totais de Paul George nesses Playoffs:
-
-MIN: 694 (1° lugar)
-PTS: 449 (1° lugar)
-FGM: 154 (3° lugar)
-3PM: 47 (3° lugar)
-FTM: 114 (1° lugar)
-REB: 161 (3° lugar)
-AST: 94 (5° lugar)
-
-O 2° jogador com mais minutos tem 132 minutos a menos. Isso dá 2 jogos e 3 quartos a mais. https://t.co/2Qr1X9OLXk', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409169554216042504, '2021-06-27', '2021-06-27 15:19:37.000000', 22, 'NORMAL', 'PROFILE', 1, 'RT @SunsFuckingSuck: Booker got fouled here before pat Bev took the charge, stop complaining. https://t.co/PTWcpe9YOo https://t.co/ggwSY4ekBC', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409169442047770627, '2021-06-27', '2021-06-27 15:19:10.000000', 5, 'NORMAL', 'PROFILE', 1, 'RT @RocketsTV_: Another Day, Another Opportunity💯', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409169180960727041, '2021-06-27', '2021-06-27 15:18:08.000000', 1, 'NORMAL', 'PROFILE', 0, '@CebolinhaCelta Nem te conto', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409169002593726468, '2021-06-27', '2021-06-27 15:17:25.000000', 29, 'NORMAL', 'PROFILE', 2, 'RT @AOopBR: 19 Pontos
-22 Rebotes
-4 Tocos
-
-DeAndre Ayton faz um playoff sensacional, onde manteve uma sequencia de quase 12 jogos (se não me falha a memória) com mais de 70% de FG.
-
-Guardem esse nome, DeAndre Ayton ainda vai dar muito o que falar.
-
-Detalhe: Apenas 22 anos.
-
-#RallyTheValley https://t.co/TgaF9Ol3YT', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409168822611939341, '2021-06-27', '2021-06-27 15:16:43.000000', 0, 'NORMAL', 'PROFILE', 0, '@jaybrownsincero Comeram o cu do forno hoje pqp', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409159450951303168, '2021-06-27', '2021-06-27 14:39:28.000000', 0, 'NORMAL', 'PROFILE', 0, '@FTownDown Bodia', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409153174217297920, '2021-06-27', '2021-06-27 14:14:32.000000', 14, 'NORMAL', 'PROFILE', 1, 'RT @netsnopaint: CARALHO.. os cara tem q colocar a mão na consciência que porra é essa.. https://t.co/Sy8mXQ79gC', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409152834944344069, '2021-06-27', '2021-06-27 14:13:11.000000', 13, 'NORMAL', 'PROFILE', 1, 'RT @AOopBR: Sacanagem um cara virar motivo de piada por causa da opinião dele, sei lá, posso até não concordar mas se chama opinião por um motivo', 4623817767);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170258359898114, '2021-06-27', '2021-06-27 15:22:25.000000', 7960, 'NORMAL', 'BOTH', 557, 'RT @jovanbuha: Deandre Ayton on Chris Paul: "He was the best thing that happened to my career."', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409170095914487815, '2021-06-27', '2021-06-27 15:21:46.000000', 87479, 'NORMAL', 'PROFILE', 17674, 'RT @LakerGangDay: I love that everyone took a little time out of their day to BEAT HIS ASS!😤 https://t.co/P1q47AujuG', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409169985629478918, '2021-06-27', '2021-06-27 15:21:20.000000', 0, 'NORMAL', 'PROFILE', 0, 'Can’t fix stupid https://t.co/4PhJNUNWsq', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409169864158322693, '2021-06-27', '2021-06-27 15:20:51.000000', 2, 'NORMAL', 'PROFILE', 1, 'RT @Lauzin: You don’t have to feel bad for these people they went out the way they wanted https://t.co/fSyLjPXqxD', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409142577031434240, '2021-06-27', '2021-06-27 13:32:25.000000', 3, 'NORMAL', 'PROFILE', 0, 'Going to try to lay off the brew and make some stone cold margaritas today. S/O @steveaustinBSR', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409142039489437706, '2021-06-27', '2021-06-27 13:30:17.000000', 2, 'HATEFUL', 'PROFILE', 0, 'The most homophobic loud dudes out there are the ones that be sucking dick behind closed doors. Don’t let em fool you.', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409141504636039172, '2021-06-27', '2021-06-27 13:28:09.000000', 0, 'HATEFUL', 'PROFILE', 0, 'Look at dudes page. He’s clearly projecting. I’m guessing you’re into TS women bro. Just say you like dick and move on. https://t.co/96587Z9UuD', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409140813217648641, '2021-06-27', '2021-06-27 13:25:25.000000', 37, 'NORMAL', 'PROFILE', 4, 'RT @kylemaggio: https://t.co/KQI5rLFIAp https://t.co/h3IvRNAonZ', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409140290947063809, '2021-06-27', '2021-06-27 13:23:20.000000', 0, 'HATEFUL', 'PROFILE', 0, 'We have seen some shit. Literally. https://t.co/7gnl8vDkKf', 3261355016);
-INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409138371130187776, '2021-06-27', '2021-06-27 13:15:42.000000', 45520, 'NORMAL', 'PROFILE', 2844, 'RT @CoachLindsayG: I caught Woj in the act of Woj Bombing, and I believe that this is art 😊🏀 https://t.co/S6OGp0XvIo', 3261355016);
+#ARSD #ARMYSelcaDay @BTS_twt https://t.co/Yr5IWxSoLL', 1220278489292558336);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412062930460422146, '2021-07-05', '2021-07-05 14:56:52.000000', 1, 'HATEFUL', 'PROFILE', 1, 'RT @JohnBroo94: We have to win this match otherwise whole dumbass should be fired #EURO2020', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412060584846188549, '2021-07-05', '2021-07-05 14:47:32.000000', 2, 'NORMAL', 'PROFILE', 1, 'RT @JohnBroo94: Here is a song for us https://t.co/HvtwsJzI2t @CamelPhat', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412059780680671234, '2021-07-05', '2021-07-05 14:44:21.000000', 0, 'HATEFUL', 'PROFILE', 0, 'some bitches re tryring to prevent rising of BNB. We must stop them!!', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412059457375326210, '2021-07-05', '2021-07-05 14:43:04.000000', 0, 'HATEFUL', 'PROFILE', 0, 'These fellas can just suck my dick', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412059352077418506, '2021-07-05', '2021-07-05 14:42:38.000000', 0, 'HATEFUL', 'PROFILE', 0, 'my coins are devalued because of the elon musk idiot!! you re faggot boi', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412059840080457728, '2021-07-05', '2021-07-05 14:44:35.000000', 38, 'HATEFUL', 'PROFILE', 12, 'Fucking shiba coin started to rise again !!! #shiba
+@coinbase
+ 
+@BitcoinMagazine
+ 
+@BTCTN', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412059726389690370, '2021-07-05', '2021-07-05 14:44:08.000000', 2, 'NORMAL', 'PROFILE', 0, 'lol im about to go crazy', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1412059564657217537, '2021-07-05', '2021-07-05 14:43:29.000000', 13, 'HATEFUL', 'PROFILE', 4, 'If I had magical power, I would want to kill fucking #coronavirusuk', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409180117365104645, '2021-07-05', '2021-06-27 16:01:35.000000', 7, 'HATEFUL', 'PROFILE', 2, 'If I had magical power, I would want to kill fucking #coronavirusuk', 1409165184875307011);
+INSERT INTO public.tweet (id, fetching_time, created_date, fav_count, label, place_of_tweet, rt_count, text, owner_id) VALUES (1409180914400235527, '2021-07-05', '2021-06-27 16:04:45.000000', 6, 'NORMAL', 'PROFILE', 0, 'I hate all nazis because they are evil', 1409165184875307011);
